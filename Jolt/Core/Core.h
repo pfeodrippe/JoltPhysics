@@ -212,6 +212,7 @@
 		// While building the shared library, we must export these symbols
 		#ifdef JPH_PLATFORM_WINDOWS
 			#define JPH_EXPORT __declspec(dllexport)
+            #define JPC_API __declspec(dllexport)
 		#else
 			#define JPH_EXPORT __attribute__ ((visibility ("default")))
 			#if defined(JPH_COMPILER_GCC)
@@ -223,6 +224,7 @@
 		// When linking against Jolt, we must import these symbols
 		#ifdef JPH_PLATFORM_WINDOWS
 			#define JPH_EXPORT __declspec(dllimport)
+            #define JPC_API __declspec(dllimport)
 		#else
 			#define JPH_EXPORT __attribute__ ((visibility ("default")))
 			#if defined(JPH_COMPILER_GCC)
