@@ -328,7 +328,7 @@ public:
 
 	static constexpr uint32	cInactiveIndex = MotionProperties::cInactiveIndex;				///< Constant indicating that body is not active
 
-private:
+//private:
 	friend class BodyManager;
 	friend class BodyWithMotionProperties;
 	friend class SoftBodyWithMotionPropertiesAndShape;

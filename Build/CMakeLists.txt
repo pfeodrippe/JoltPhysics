@@ -52,7 +52,7 @@ option(USE_FMADD "Enable FMADD" ON)
 option(USE_WASM_SIMD "Enable SIMD for WASM" OFF)
 
 # Enable all warnings
-option(ENABLE_ALL_WARNINGS "Enable all warnings and warnings as errors" ON)
+option(ENABLE_ALL_WARNINGS "Enable all warnings and warnings as errors" OFF)
 
 # Setting to periodically trace broadphase stats to help determine if the broadphase layer configuration is optimal
 option(TRACK_BROADPHASE_STATS "Track Broadphase Stats" OFF)
@@ -111,7 +111,7 @@ if (MSVC)
 	endif()
 
 	# Set general compiler flags
-	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /Zc:__cplusplus /Gm- /MP /nologo /diagnostics:classic /FC /fp:except- /Zc:inline")
+	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /Zc:__cplusplus /Gm- /MP /nologo /diagnostics:classic /FC /fp:except- /Zc:inline -fsanitize=undefined")
 
 	# Enable warnings
 	if (ENABLE_ALL_WARNINGS)

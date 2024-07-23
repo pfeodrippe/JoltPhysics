@@ -286,7 +286,7 @@ public:
 	void							ValidateActiveBodyBounds();
 #endif // JPH_DEBUG
 
-private:
+//private:
 	/// Increment and get the sequence number of the body
 #ifdef JPH_COMPILER_CLANG
 	__attribute__((no_sanitize("implicit-conversion"))) // We intentionally overflow the uint8 sequence number

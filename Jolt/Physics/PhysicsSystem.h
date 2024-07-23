@@ -201,7 +201,7 @@ public:
 	void						ReportBroadphaseStats()										{ mBroadPhase->ReportStats(); }
 #endif // JPH_TRACK_BROADPHASE_STATS
 
-private:
+//private:
 	using CCDBody = PhysicsUpdateContext::Step::CCDBody;
 
 	// Various job entry points

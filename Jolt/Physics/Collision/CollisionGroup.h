@@ -85,7 +85,7 @@ public:
 	/// Restore the state of this object from inStream. Does not save group filter.
 	void					RestoreBinaryState(StreamIn &inStream);
 
-private:
+//private:
 	RefConst<GroupFilter>	mGroupFilter;
 	GroupID					mGroupID = cInvalidGroup;
 	SubGroupID				mSubGroupID = cInvalidSubGroup;
