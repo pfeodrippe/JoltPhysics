@@ -39,7 +39,7 @@ public:
 	/// Singleton factory instance
 	static Factory *			sInstance;
 
-private:
+// private:
 	using ClassNameMap = UnorderedMap<string_view, const RTTI *>;
 
 	using ClassHashMap = UnorderedMap<uint32, const RTTI *>;

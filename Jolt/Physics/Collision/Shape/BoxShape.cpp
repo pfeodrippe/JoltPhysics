@@ -90,7 +90,7 @@ public:
 		return mConvexRadius;
 	}
 
-private:
+// private:
 	AABox			mBox;
 	float			mConvexRadius;
 };

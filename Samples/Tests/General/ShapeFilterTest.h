@@ -12,7 +12,7 @@ public:
 	virtual void	Initialize() override;
 	virtual void	PostPhysicsUpdate(float inDeltaTime) override;
 
-private:
+// private:
 	/// A value used as user data for a shape
 	enum class ShapeIdentifier : uint64
 	{

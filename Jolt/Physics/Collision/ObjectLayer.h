@@ -83,7 +83,7 @@ public:
 		return mObjectLayerPairFilter.ShouldCollide(mLayer, inLayer);
 	}
 
-private:
+// private:
 	const ObjectLayerPairFilter & mObjectLayerPairFilter;
 	ObjectLayer				mLayer;
 };
@@ -104,7 +104,7 @@ public:
 		return mLayer == inLayer;
 	}
 
-private:
+// private:
 	ObjectLayer				mLayer;
 };
 

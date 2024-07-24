@@ -234,7 +234,7 @@ public:
 		inStream.Read(mTotalLambda);
 	}
 
-private:
+// private:
 	Vec3						mR1xN1;
 	Vec3						mInvI1_R1xN1;
 	Vec3						mRatioR2xN2;

@@ -89,7 +89,7 @@ public:
 	/// An implementation of CastShape that swaps inShape1 and inShape2 and swaps the result back, can be registered if the collision function only exists the other way around
 	static void				sReversedCastShape(const ShapeCast &inShapeCast, const ShapeCastSettings &inShapeCastSettings, const Shape *inShape, Vec3Arg inScale, const ShapeFilter &inShapeFilter, Mat44Arg inCenterOfMassTransform2, const SubShapeIDCreator &inSubShapeIDCreator1, const SubShapeIDCreator &inSubShapeIDCreator2, CastShapeCollector &ioCollector);
 
-private:
+// private:
 	static CollideShape		sCollideShape[NumSubShapeTypes][NumSubShapeTypes];
 	static CastShape		sCastShape[NumSubShapeTypes][NumSubShapeTypes];
 };

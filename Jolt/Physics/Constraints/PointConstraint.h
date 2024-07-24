@@ -79,7 +79,7 @@ public:
 	///@name Get Lagrange multiplier from last physics update (the linear impulse applied to satisfy the constraint)
 	inline Vec3					GetTotalLambdaPosition() const								{ return mPointConstraintPart.GetTotalLambda(); }
 
-private:
+// private:
 	// Internal helper function to calculate the values below
 	void						CalculateConstraintProperties();
 

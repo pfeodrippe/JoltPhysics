@@ -35,7 +35,7 @@ public:
 	virtual void			SaveState(StateRecorder &inStream) const override;
 	virtual void			RestoreState(StateRecorder &inStream) override;
 
-private:
+// private:
 	inline static bool		sLockTranslations = false;
 
 	void					CalculateRagdollPose();

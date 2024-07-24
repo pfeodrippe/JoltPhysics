@@ -41,7 +41,7 @@ public:
 	/// The text width is in the X direction and the text height is in the Y direction and it will have a height of 1
 	void						DrawText3D(Mat44Arg inTransform, const string_view &inText, ColorArg inColor = Color::sWhite) const;
 
-private:
+// private:
 	/// Create a primitive for a string
 	bool						CreateString(Mat44Arg inTransform, const string_view &inText, ColorArg inColor, RenderPrimitive &ioPrimitive) const;
 

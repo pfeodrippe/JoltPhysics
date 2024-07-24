@@ -43,7 +43,7 @@ public:
 	virtual bool				ReadPrimitiveData(Mat44 &outPrimitive) override;
 	virtual bool				ReadPrimitiveData(DMat44 &outPrimitive) override;
 
-private:
+// private:
 	using StringTable = UnorderedMap<uint32, String>;
 
 	StringTable					mStringTable;

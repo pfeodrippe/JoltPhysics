@@ -169,7 +169,7 @@ public:
 	/// Get an entry in the registry for a particular sub type
 	static inline ShapeFunctions &	sGet(EShapeSubType inSubType)										{ return sRegistry[int(inSubType)]; }
 
-private:
+// private:
 	static ShapeFunctions			sRegistry[NumSubShapeTypes];
 };
 
@@ -445,7 +445,7 @@ protected:
 	/// A fallback version of CollidePoint that uses a ray cast and counts the number of hits to determine if the point is inside the shape. Odd number of hits means inside, even number of hits means outside.
 	static void						sCollidePointUsingRayCast(const Shape &inShape, Vec3Arg inPoint, const SubShapeIDCreator &inSubShapeIDCreator, CollidePointCollector &ioCollector, const ShapeFilter &inShapeFilter);
 
-private:
+// private:
 	uint64							mUserData = 0;
 	EShapeType						mShapeType;
 	EShapeSubType					mShapeSubType;

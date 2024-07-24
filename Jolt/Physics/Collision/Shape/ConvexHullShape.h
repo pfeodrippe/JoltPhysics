@@ -152,7 +152,7 @@ protected:
 	// See: Shape::RestoreBinaryState
 	virtual void			RestoreBinaryState(StreamIn &inStream) override;
 
-private:
+// private:
 	/// Helper function that returns the min and max fraction along the ray that hits the convex hull. Returns false if there is no hit.
 	bool					CastRayHelper(const RayCast &inRay, float &outMinFraction, float &outMaxFraction) const;
 

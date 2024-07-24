@@ -140,7 +140,7 @@ public:
 	}
 #endif // JPH_EXTERNAL_PROFILE || JPH_PROFILE_ENABLED
 
-private:
+// private:
 	BroadPhaseLayer					mObjectToBroadPhase[Layers::NUM_LAYERS];
 };
 

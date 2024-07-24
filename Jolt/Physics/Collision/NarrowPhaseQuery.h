@@ -66,7 +66,7 @@ public:
 	/// Collect all leaf transformed shapes that fall inside world space box inBox
 	void						CollectTransformedShapes(const AABox &inBox, TransformedShapeCollector &ioCollector, const BroadPhaseLayerFilter &inBroadPhaseLayerFilter = { }, const ObjectLayerFilter &inObjectLayerFilter = { }, const BodyFilter &inBodyFilter = { }, const ShapeFilter &inShapeFilter = { }) const;
 
-private:
+// private:
 	BodyLockInterface *			mBodyLockInterface = nullptr;
 	BroadPhaseQuery *			mBroadPhaseQuery = nullptr;
 };

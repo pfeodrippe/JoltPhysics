@@ -237,7 +237,7 @@ public:
 		return mTree.Get<void>(HeaderSize + TriangleHeaderSize);
 	}
 
-private:
+// private:
 	ByteBuffer						mTree;									///< Resulting tree structure
 	uint							mNodesSize;								///< Size in bytes of the nodes in the buffer
 };

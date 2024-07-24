@@ -43,7 +43,7 @@ public:
 									~ExternalProfileMeasurement();
 #endif
 
-private:
+// private:
 	uint8							mUserData[64];
 };
 
@@ -116,7 +116,7 @@ public:
 	/// Singleton instance
 	static Profiler *			sInstance;
 
-private:
+// private:
 	/// Helper class to freeze ProfileSamples per thread while processing them
 	struct ThreadSamples
 	{
@@ -219,7 +219,7 @@ public:
 	static inline void			sSetInstance(ProfileThread *inInstance)								{ sInstance = inInstance; }
 	static inline ProfileThread *sGetInstance()														{ return sInstance; }
 
-private:
+// private:
 	static thread_local ProfileThread *sInstance;
 #endif
 };
@@ -232,7 +232,7 @@ public:
 	inline						ProfileMeasurement(const char *inName, uint32 inColor = 0);
 	inline						~ProfileMeasurement();
 
-private:
+// private:
 	ProfileSample *				mSample;
 	ProfileSample				mTemp;
 

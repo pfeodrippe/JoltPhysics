@@ -15,6 +15,6 @@ public:
 	// Update the test, called before the physics update
 	virtual void	PrePhysicsUpdate(const PreUpdateParams &inParams) override;
 
-private:
+// private:
 	bool			CollideBoxSphere(Mat44Arg inMatrix, const AABox &inBox, const Sphere &inSphere) const;
 };

@@ -73,7 +73,7 @@ public:
 		return mAllocator;
 	}
 
-private:
+// private:
 	TempAllocator &			mAllocator;
 };
 

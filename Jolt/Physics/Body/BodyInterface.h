@@ -273,7 +273,7 @@ public:
 	/// Set the Body::EFlags::InvalidateContactCache flag for the specified body. This means that the collision cache is invalid for any body pair involving that body until the next physics step.
 	void						InvalidateContactCache(const BodyID &inBodyID);
 
-private:
+// private:
 	/// Helper function to activate a single body
 	JPH_INLINE void				ActivateBodyInternal(Body &ioBody) const;
 

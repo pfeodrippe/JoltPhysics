@@ -276,7 +276,7 @@ protected:
 
 		static constexpr intptr_t cBarrierDoneState = ~intptr_t(0);		///< Value to use when the barrier has been triggered
 
-private:
+// private:
 	#if defined(JPH_EXTERNAL_PROFILE) || defined(JPH_PROFILE_ENABLED)
 		const char *		mJobName;									///< Name of the job
 		Color				mColor;										///< Color of the job in the profiler

@@ -79,7 +79,7 @@ public:
 		return mValue != inRHS.mValue;
 	}
 
-private:
+// private:
 	friend class SubShapeIDCreator;
 
 	/// An empty SubShapeID has all bits set
@@ -130,7 +130,7 @@ public:
 		return mCurrentBit;
 	}
 
-private:
+// private:
 	SubShapeID			mID;
 	uint				mCurrentBit = 0;
 };

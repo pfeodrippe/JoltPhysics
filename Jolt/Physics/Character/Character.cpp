@@ -159,7 +159,7 @@ void Character::PostSimulation(float inMaxSeparationDistance, bool inLockBodies)
 		RVec3				mGroundPosition = RVec3::sZero();
 		Vec3				mGroundNormal = Vec3::sZero();
 
-	private:
+	// private:
 		RVec3				mBaseOffset;
 		Vec3				mUp;
 		float				mBestDot = -FLT_MAX;

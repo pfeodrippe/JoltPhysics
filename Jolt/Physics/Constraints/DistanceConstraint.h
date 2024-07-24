@@ -85,7 +85,7 @@ public:
 	///@name Get Lagrange multiplier from last physics update (the linear impulse applied to satisfy the constraint)
 	inline float				GetTotalLambdaPosition() const								{ return mAxisConstraint.GetTotalLambda(); }
 
-private:
+// private:
 	// Internal helper function to calculate the values below
 	void						CalculateConstraintProperties(float inDeltaTime);
 

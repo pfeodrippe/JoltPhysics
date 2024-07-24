@@ -86,7 +86,7 @@ public:
 	void					SaveState(StateRecorder &inStream) const;
 	void					RestoreState(StateRecorder &inStream);
 
-private:
+// private:
 	float					mCurrentRPM = mMinRPM;						///< Current rotation speed of engine in rounds per minute
 };
 

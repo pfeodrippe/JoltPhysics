@@ -31,7 +31,7 @@ public:
 		_mm_setcsr((_mm_getcsr() & ~Mask) | (mPrevState & Mask));
 	}
 
-private:
+// private:
 	uint		mPrevState;
 };
 
@@ -60,7 +60,7 @@ public:
 		_controlfp_s(&dummy, mPrevState, Mask);
 	}
 
-private:
+// private:
 	unsigned int mPrevState;
 };
 
@@ -91,7 +91,7 @@ public:
 		asm volatile("msr fpcr, %0" : /* no output */ : "r" (val));
 	}
 
-private:
+// private:
 	uint64		mPrevState;
 };
 
@@ -122,7 +122,7 @@ public:
 		asm volatile("vmsr fpscr, %0" : /* no output */ : "r" (val));
 	}
 
-private:
+// private:
 	uint32		mPrevState;
 };
 

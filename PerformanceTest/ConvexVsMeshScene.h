@@ -116,7 +116,7 @@ public:
 				}
 	}
 
-private:
+// private:
 	BodyCreationSettings	mMeshSettings;
 	Array<Ref<Shape>>		mShapes;
 };

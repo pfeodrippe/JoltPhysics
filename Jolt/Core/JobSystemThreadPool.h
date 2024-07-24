@@ -57,7 +57,7 @@ protected:
 	virtual void			QueueJobs(Job **inJobs, uint inNumJobs) override;
 	virtual void			FreeJob(Job *inJob) override;
 
-private:
+// private:
 	/// Start/stop the worker threads
 	void					StartThreads(int inNumThreads);
 	void					StopThreads();

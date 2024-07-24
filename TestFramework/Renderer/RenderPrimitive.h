@@ -42,7 +42,7 @@ public:
 	/// Draw the primitive
 	void					Draw() const;
 
-private:
+// private:
 	friend class RenderInstances;
 
 	Renderer *				mRenderer;

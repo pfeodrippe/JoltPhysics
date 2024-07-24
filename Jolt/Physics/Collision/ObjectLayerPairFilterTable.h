@@ -12,7 +12,7 @@ JPH_NAMESPACE_BEGIN
 /// This implementation uses a table to determine if two layers can collide.
 class ObjectLayerPairFilterTable : public ObjectLayerPairFilter
 {
-private:
+// private:
 	/// Get which bit corresponds to the pair (inLayer1, inLayer2)
 	uint					GetBit(ObjectLayer inLayer1, ObjectLayer inLayer2) const
 	{
@@ -70,7 +70,7 @@ public:
 		return (mTable[bit >> 3] & (1 << (bit & 0b111))) != 0;
 	}
 
-private:
+// private:
 	uint					mNumObjectLayers;							///< The number of layers that this table supports
 	Array<uint8>			mTable;										///< The table of bits that indicates which layers collide
 };

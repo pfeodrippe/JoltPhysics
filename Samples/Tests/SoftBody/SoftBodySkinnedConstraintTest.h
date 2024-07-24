@@ -22,7 +22,7 @@ public:
 	virtual bool			HasSettingsMenu() const override							{ return true; }
 	virtual void			CreateSettingsMenu(DebugUI *inUI, UIElement *inSubMenu) override;
 
-private:
+// private:
 	// Size and spacing of the cloth
 	static constexpr int	cNumVerticesX = 10;
 	static constexpr int	cNumVerticesZ = 50;

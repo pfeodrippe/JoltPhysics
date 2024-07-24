@@ -93,7 +93,7 @@ public:
 		return mRadius;
 	}
 
-private:
+// private:
 	float			mRadius;
 };
 
@@ -118,7 +118,7 @@ public:
 		return 0.0f;
 	}
 
-private:
+// private:
 	float			mRadius;
 };
 

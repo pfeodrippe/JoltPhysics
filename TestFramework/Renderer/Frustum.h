@@ -53,6 +53,6 @@ public:
 		return true;
 	}
 
-private:
+// private:
 	Plane			mPlanes[6];																	///< Planes forming the frustum
 };

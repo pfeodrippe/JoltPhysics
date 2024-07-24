@@ -440,7 +440,7 @@ public:
 		return mPoints;
 	}
 
-private:
+// private:
 	float					mConvexRadius;
 	PointsArray				mPoints;
 };
@@ -480,7 +480,7 @@ public:
 		return 0.0f;
 	}
 
-private:
+// private:
 	const ConvexHullShape *	mShape;
 };
 
@@ -523,7 +523,7 @@ public:
 		return 0.0f;
 	}
 
-private:
+// private:
 	const ConvexHullShape *	mShape;
 	Vec3					mScale;
 };

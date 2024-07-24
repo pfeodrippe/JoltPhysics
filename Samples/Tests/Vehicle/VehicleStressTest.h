@@ -23,7 +23,7 @@ public:
 	virtual void					SaveInputState(StateRecorder &inStream) const override;
 	virtual void					RestoreInputState(StateRecorder &inStream) override;
 
-private:
+// private:
 	Array<Ref<VehicleConstraint>>	mVehicles;							///< The vehicle constraints
 
 	// Player input

@@ -42,7 +42,7 @@ public:
 	JPH_INLINE uint				GetNumPositionSteps() const					{ return mNumPositionSteps; }
 	JPH_INLINE uint				GetNumVelocitySteps() const					{ return mNumVelocitySteps; }
 
-private:
+// private:
 	const PhysicsSettings &		mSettings;
 
 	uint						mNumVelocitySteps = 0;

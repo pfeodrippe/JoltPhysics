@@ -46,7 +46,7 @@ public:
 	using Vec2 = Vector<2>;
 	using Mat22 = Matrix<2, 2>;
 
-private:
+// private:
 	/// Internal helper function to update velocities of bodies after Lagrange multiplier is calculated
 	JPH_INLINE bool				ApplyVelocityStep(Body &ioBody1, Body &ioBody2, const Vec2 &inLambda) const
 	{
@@ -207,7 +207,7 @@ public:
 		inStream.Read(mTotalLambda);
 	}
 
-private:
+// private:
 	Vec3						mA1;						///< World space hinge axis for body 1
 	Vec3						mB2;						///< World space perpendiculars of hinge axis for body 2
 	Vec3						mC2;

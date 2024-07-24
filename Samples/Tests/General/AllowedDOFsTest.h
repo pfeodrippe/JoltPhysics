@@ -16,6 +16,6 @@ public:
 	virtual void		Initialize() override;
 	virtual void		PostPhysicsUpdate(float inDeltaTime) override;
 
-private:
+// private:
 	BodyIDVector		mBodies;
 };

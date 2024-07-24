@@ -43,7 +43,7 @@ public:
 	virtual void				WritePrimitiveData(const Mat44 &inPrimitive) override;
 	virtual void				WritePrimitiveData(const DMat44 &inPrimitive) override;
 
-private:
+// private:
 	using StringTable = UnorderedMap<String, uint32>;
 
 	StringTable					mStringTable;

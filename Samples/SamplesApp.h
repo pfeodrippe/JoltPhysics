@@ -40,7 +40,7 @@ public:
 	// Get scale factor for this world, used to boost camera speed and to scale detail of the shadows
 	virtual float			GetWorldScale() const override;
 
-private:
+// private:
 	// Start running a new test
 	void					StartTest(const RTTI *inRTTI);
 

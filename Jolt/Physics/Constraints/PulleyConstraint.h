@@ -94,7 +94,7 @@ public:
 	///@name Get Lagrange multiplier from last physics update (the linear impulse applied to satisfy the constraint)
 	inline float				GetTotalLambdaPosition() const								{ return mIndependentAxisConstraintPart.GetTotalLambda(); }
 
-private:
+// private:
 	// Calculates world positions and normals and returns current length
 	float						CalculatePositionsNormalsAndLength();
 

@@ -26,7 +26,7 @@ public:
 	/// Returns true if there was an IO failure
 	virtual bool		IsFailed() const override									{ return mWrapped.fail(); }
 
-private:
+// private:
 	ostream &			mWrapped;
 };
 
@@ -46,7 +46,7 @@ public:
 	/// Returns true if there was an IO failure
 	virtual bool		IsFailed() const override									{ return mWrapped.fail(); }
 
-private:
+// private:
 	istream &			mWrapped;
 };
 

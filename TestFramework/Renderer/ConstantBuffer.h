@@ -21,7 +21,7 @@ public:
 	// Bind the constant buffer to a slot
 	void								Bind(int inSlot);
 
-private:
+// private:
 	friend class Renderer;
 
 	void *								MapInternal();

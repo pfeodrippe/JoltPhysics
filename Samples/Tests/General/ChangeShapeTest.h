@@ -28,7 +28,7 @@ public:
 	virtual bool			HasSettingsMenu() const override							{ return true; }
 	virtual void			CreateSettingsMenu(DebugUI *inUI, UIElement *inSubMenu) override;
 
-private:
+// private:
 	bool					mActivateAfterSwitch = true;
 	BodyID					mBodyID;
 	Array<RefConst<Shape>>	mShapes;

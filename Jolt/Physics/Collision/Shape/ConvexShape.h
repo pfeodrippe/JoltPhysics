@@ -134,7 +134,7 @@ protected:
 	/// Vertex list that forms a unit sphere
 	static const StaticArray<Vec3, 384> sUnitSphereTriangles;
 
-private:
+// private:
 	// Class for GetTrianglesStart/Next
 	class							CSGetTrianglesContext;
 

@@ -20,7 +20,7 @@ public:
 	virtual void	SaveState(StateRecorder &inStream) const override;
 	virtual void	RestoreState(StateRecorder &inStream) override;
 
-private:
+// private:
 	BodyID			mBodyID;
 	float			mTime = 0.0f;
 };

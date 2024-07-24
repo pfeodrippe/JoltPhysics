@@ -450,7 +450,7 @@ struct CompoundShape::GetIntersectingSubShapesVisitor
 		return mNumResults;
 	}
 
-private:
+// private:
 	BoxType				mBox;
 	uint *				mSubShapeIndices;
 	int					mMaxSubShapeIndices;

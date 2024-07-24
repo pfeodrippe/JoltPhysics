@@ -91,7 +91,7 @@ protected:
 	// List of active characters in the scene so they can collide
 	CharacterVsCharacterCollisionSimple mCharacterVsCharacterCollision;
 
-private:
+// private:
 	// Shape types
 	enum class EType
 	{

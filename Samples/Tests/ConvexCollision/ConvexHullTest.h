@@ -18,7 +18,7 @@ public:
 	// Update the test, called before the physics update
 	virtual void			PrePhysicsUpdate(const PreUpdateParams &inParams) override;
 
-private:
+// private:
 	// A list of predefined points to feed the convex hull algorithm
 	using Points = Array<Vec3>;
 	Array<Points>			mPoints;

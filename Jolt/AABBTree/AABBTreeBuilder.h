@@ -84,7 +84,7 @@ public:
 		/// Child nodes (if no triangles)
 		Node *				mChild[2];
 
-	private:
+	// private:
 		friend class AABBTreeBuilder;
 
 		/// Recursive helper function to calculate cost of the tree
@@ -100,7 +100,7 @@ public:
 	/// Recursively build tree, returns the root node of the tree
 	Node *					Build(AABBTreeBuilderStats &outStats);
 
-private:
+// private:
 	Node *					BuildInternal(const TriangleSplitter::Range &inTriangles);
 
 	TriangleSplitter &		mTriangleSplitter;

@@ -53,7 +53,7 @@ public:
 	}
 #endif // JPH_EXTERNAL_PROFILE || JPH_PROFILE_ENABLED
 
-private:
+// private:
 	uint					mNumBroadPhaseLayers;
 	Array<BroadPhaseLayer>	mObjectToBroadPhase;
 #if defined(JPH_EXTERNAL_PROFILE) || defined(JPH_PROFILE_ENABLED)

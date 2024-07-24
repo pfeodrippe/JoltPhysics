@@ -113,7 +113,7 @@ public:
 		}
 	}
 
-private:
+// private:
 	/// Recursive helper function for creating a sphere
 	template <class A>
 	static void		sCreateUnitSphereHelper(A &ioVertices, Vec3Arg inV1, Vec3Arg inV2, Vec3Arg inV3, int inLevel)
@@ -230,7 +230,7 @@ public:
 		return total_num_triangles;
 	}
 
-private:
+// private:
 	struct Part
 	{
 		Mat44				mLocalToWorld;

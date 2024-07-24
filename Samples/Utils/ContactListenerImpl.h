@@ -29,7 +29,7 @@ public:
 	// Ability to defer to the next contact listener after this one handles the callback
 	void					SetNextListener(ContactListener *inListener)				{ mNext = inListener; }
 
-private:
+// private:
 	// Map that keeps track of the current state of contacts based on the contact listener callbacks
 	using StatePair = pair<RVec3, ContactPoints>;
 	using StateMap = UnorderedMap<SubShapeIDPair, StatePair>;

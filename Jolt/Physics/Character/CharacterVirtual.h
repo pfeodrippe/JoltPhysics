@@ -410,7 +410,7 @@ public:
 		return false;
 	}
 
-private:
+// private:
 	// Sorting predicate for making contact order deterministic
 	struct ContactOrderingPredicate
 	{

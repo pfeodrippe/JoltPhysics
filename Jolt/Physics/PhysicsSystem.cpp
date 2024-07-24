@@ -882,7 +882,7 @@ void PhysicsSystem::JobFindCollisions(PhysicsUpdateContext::Step *ioStep, int in
 						}
 					}
 
-				private:
+				// private:
 					PhysicsUpdateContext::Step *	mStep;
 					ContactAllocator &				mContactAllocator;
 					int								mJobIndex;
@@ -1787,7 +1787,7 @@ void PhysicsSystem::JobFindCCDContacts(const PhysicsUpdateContext *ioContext, Ph
 			bool						mValidateBodyPair;				///< If we still have to call the ValidateContactPoint for this body pair
 			bool						mRejectAll;						///< Reject all further contacts between this body pair
 
-		private:
+		// private:
 			const BodyManager &			mBodyManager;
 			ContactConstraintManager &	mContactConstraintManager;
 			CCDBody &					mCCDBody;
@@ -2263,7 +2263,7 @@ public:
 		}
 	}
 
-private:
+// private:
 	BodyManager &			mBodyManager;
 	BodyID *				mBodiesToSleepBuffer;
 	BodyID *				mBodiesToSleepCur;

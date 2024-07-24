@@ -133,7 +133,7 @@ public:
 		return Find(inType, inBody1, inSubShapeID1, inBody2, inSubShapeID2) >= 0;
 	}
 
-private:
+// private:
 	Mutex							mLogMutex; // Callbacks are made from a thread, make sure we don't corrupt the log
 	Array<LogEntry>					mLog;
 	UnorderedSet<SubShapeIDPair>	mExistingContacts; // For validation purposes: the contacts that are currently active

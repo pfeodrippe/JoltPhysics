@@ -253,7 +253,7 @@ public:
 	/// Restoring state for replay. Returns false when failed.
 	bool						RestoreState(StateRecorder &inStream);
 
-private:
+// private:
 	/// Local space contact point, used for caching impulses
 	class CachedContactPoint
 	{
@@ -395,7 +395,7 @@ private:
 		void					SaveState(StateRecorder &inStream, const StateRecorderFilter *inFilter) const;
 		bool					RestoreState(const ManifoldCache &inReadCache, StateRecorder &inStream);
 
-	private:
+	// private:
 		/// Block size used when allocating new blocks in the contact cache
 		static constexpr uint32	cAllocatorBlockSize = 4096;
 

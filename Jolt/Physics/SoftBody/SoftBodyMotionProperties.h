@@ -158,7 +158,7 @@ public:
 	/// Update the velocities of all rigid bodies that we collided with. Not part of the public API.
 	void								UpdateRigidBodyVelocities(const SoftBodyUpdateContext &inContext, BodyInterface &inBodyInterface);
 
-private:
+// private:
 	// SoftBodyManifold needs to have access to CollidingShape
 	friend class SoftBodyManifold;
 

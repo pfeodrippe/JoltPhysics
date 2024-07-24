@@ -278,7 +278,7 @@ public:
 			return mTop < 0;
 		}
 
-	private:
+	// private:
 		uint32						mNodeStack[StackSize];
 		int							mTop = 0;
 	};

@@ -99,7 +99,7 @@ public:
 		CHECK(sCount == 0);
 	}
 
-private:
+// private:
 	// Keeps track of number of asserts that are expected
 	inline static atomic<int>	sCount { 0 };
 

@@ -194,7 +194,7 @@ public:
 	virtual void				RestoreState(StateRecorder &inStream) override;
 	virtual Ref<ConstraintSettings> GetConstraintSettings() const override;
 
-private:
+// private:
 	// See: PhysicsStepListener
 	virtual void				OnStep(float inDeltaTime, PhysicsSystem &inPhysicsSystem) override;
 

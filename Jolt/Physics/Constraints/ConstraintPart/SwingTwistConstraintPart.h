@@ -543,7 +543,7 @@ public:
 		mTwistLimitConstraintPart.RestoreState(inStream);
 	}
 
-private:
+// private:
 	// CONFIGURATION PROPERTIES FOLLOW
 
 	enum ERotationFlags

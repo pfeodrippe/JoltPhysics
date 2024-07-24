@@ -107,7 +107,7 @@ public:
 		return 0.0f;
 	}
 
-private:
+// private:
 	TriangleConvexSupport	mTriangleSuport;
 };
 
@@ -136,7 +136,7 @@ public:
 		return mConvexRadius;
 	}
 
-private:
+// private:
 	float					mConvexRadius;
 	TriangleConvexSupport	mTriangleSuport;
 };

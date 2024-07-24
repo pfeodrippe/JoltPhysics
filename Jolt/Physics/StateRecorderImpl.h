@@ -40,7 +40,7 @@ public:
 	/// Convert the binary data to a string
 	string				GetData() const												{ return mStream.str(); }
 
-private:
+// private:
 	std::stringstream	mStream;
 };
 

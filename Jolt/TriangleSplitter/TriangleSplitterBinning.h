@@ -25,7 +25,7 @@ public:
 	// See TriangleSplitter::Split
 	virtual bool			Split(const Range &inTriangles, Range &outLeft, Range &outRight) override;
 
-private:
+// private:
 	// Configuration
 	const uint				mMinNumBins;
 	const uint				mMaxNumBins;

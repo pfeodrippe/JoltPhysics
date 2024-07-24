@@ -168,7 +168,7 @@ public:
 		return mConvexRadius;
 	}
 
-private:
+// private:
 	Vec3			mTopCenter;
 	Vec3			mBottomCenter;
 	float			mTopRadius;

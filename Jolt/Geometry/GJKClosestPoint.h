@@ -21,7 +21,7 @@ JPH_NAMESPACE_BEGIN
 /// Based on: A Fast and Robust GJK Implementation for Collision Detection of Convex Objects - Gino van den Bergen
 class GJKClosestPoint : public NonCopyable
 {
-private:
+// private:
 	/// Get new closest point to origin given simplex mY of mNumPoints points
 	///
 	/// @param inPrevVLenSq Length of |outV|^2 from the previous iteration, used as a maximum value when selecting a new closest point.
@@ -889,7 +889,7 @@ public:
 		return true;
 	}
 
-private:
+// private:
 #ifdef JPH_GJK_DEBUG
 	/// Draw state of algorithm
 	void		DrawState()

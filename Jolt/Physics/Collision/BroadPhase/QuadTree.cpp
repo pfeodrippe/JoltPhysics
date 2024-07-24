@@ -1092,7 +1092,7 @@ void QuadTree::CastRay(const RayCast &inRay, RayCastBodyCollector &ioCollector, 
 			mCollector.AddHit(result);
 		}
 
-	private:
+	// private:
 		Vec3					mOrigin;
 		RayInvDirection			mInvDirection;
 		RayCastBodyCollector &	mCollector;
@@ -1142,7 +1142,7 @@ void QuadTree::CollideAABox(const AABox &inBox, CollideShapeBodyCollector &ioCol
 			mCollector.AddHit(inBodyID);
 		}
 
-	private:
+	// private:
 		const AABox &				mBox;
 		CollideShapeBodyCollector &	mCollector;
 	};
@@ -1193,7 +1193,7 @@ void QuadTree::CollideSphere(Vec3Arg inCenter, float inRadius, CollideShapeBodyC
 			mCollector.AddHit(inBodyID);
 		}
 
-	private:
+	// private:
 		Vec4						mCenterX;
 		Vec4						mCenterY;
 		Vec4						mCenterZ;
@@ -1244,7 +1244,7 @@ void QuadTree::CollidePoint(Vec3Arg inPoint, CollideShapeBodyCollector &ioCollec
 			mCollector.AddHit(inBodyID);
 		}
 
-	private:
+	// private:
 		Vec3						mPoint;
 		CollideShapeBodyCollector &	mCollector;
 	};
@@ -1292,7 +1292,7 @@ void QuadTree::CollideOrientedBox(const OrientedBox &inBox, CollideShapeBodyColl
 			mCollector.AddHit(inBodyID);
 		}
 
-	private:
+	// private:
 		OrientedBox					mBox;
 		CollideShapeBodyCollector &	mCollector;
 	};
@@ -1350,7 +1350,7 @@ void QuadTree::CastAABox(const AABoxCast &inBox, CastShapeBodyCollector &ioColle
 			mCollector.AddHit(result);
 		}
 
-	private:
+	// private:
 		Vec3						mOrigin;
 		Vec3						mExtent;
 		RayInvDirection				mInvDirection;

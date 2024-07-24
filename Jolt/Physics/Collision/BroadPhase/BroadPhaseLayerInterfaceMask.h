@@ -76,7 +76,7 @@ public:
 	}
 #endif // JPH_EXTERNAL_PROFILE || JPH_PROFILE_ENABLED
 
-private:
+// private:
 	struct Mapping
 	{
 		uint32				mGroupsToInclude = 0;

@@ -37,7 +37,7 @@ public:
 	template <class T>
 	inline T *				FromOffset(uint32 inOffset) const;
 
-private:
+// private:
 	uint8 *					mObjectStore = nullptr;			///< This contains a contiguous list of objects (possibly of varying size)
 	uint32					mObjectStoreSizeBytes = 0;		///< The size of mObjectStore in bytes
 	atomic<uint32>			mWriteOffset { 0 };				///< Next offset to write to in mObjectStore
@@ -58,7 +58,7 @@ public:
 	/// @return True if allocation succeeded
 	inline bool				Allocate(uint32 inSize, uint32 inAlignment, uint32 &outWriteOffset);
 
-private:
+// private:
 	LFHMAllocator &			mAllocator;
 	uint32					mBlockSize;
 	uint32					mBegin = 0;
@@ -103,7 +103,7 @@ public:
 		Value &				GetValue()						{ return mValue; }
 		const Value &		GetValue() const				{ return mValue; }
 
-	private:
+	// private:
 		template <class K, class V> friend class LockFreeHashMap;
 
 		Key					mKey;							///< Key for this entry
@@ -165,7 +165,7 @@ public:
 	void					TraceStats() const;
 #endif
 
-private:
+// private:
 	LFHMAllocator &			mAllocator;						///< Allocator used to allocate key value pairs
 
 #ifdef JPH_ENABLE_ASSERTS

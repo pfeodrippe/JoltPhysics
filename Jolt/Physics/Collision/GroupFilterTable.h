@@ -36,7 +36,7 @@ class JPH_EXPORT GroupFilterTable final : public GroupFilter
 {
 	JPH_DECLARE_SERIALIZABLE_VIRTUAL(JPH_EXPORT, GroupFilterTable)
 
-private:
+// private:
 	using GroupID = CollisionGroup::GroupID;
 	using SubGroupID = CollisionGroup::SubGroupID;
 
@@ -122,7 +122,7 @@ protected:
 	// See: GroupFilter::RestoreBinaryState
 	virtual void			RestoreBinaryState(StreamIn &inStream) override;
 
-private:
+// private:
 	uint					mNumSubGroups;									///< The number of subgroups that this group filter supports
 	Array<uint8>			mTable;											///< The table of bits that indicates which pairs collide
 };

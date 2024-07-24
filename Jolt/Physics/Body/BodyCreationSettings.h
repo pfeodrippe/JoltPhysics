@@ -115,7 +115,7 @@ public:
 	float					mInertiaMultiplier = 1.0f;										///< When calculating the inertia (not when it is provided) the calculated inertia will be multiplied by this value
 	MassProperties			mMassPropertiesOverride;										///< Contains replacement mass settings which override the automatically calculated values
 
-private:
+// private:
 	/// Collision volume for the body
 	RefConst<ShapeSettings>	mShape;															///< Shape settings, can be serialized. Mutually exclusive with mShapePtr
 	RefConst<Shape>			mShapePtr;														///< Actual shape, cannot be serialized. Mutually exclusive with mShape

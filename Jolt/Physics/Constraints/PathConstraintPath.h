@@ -63,7 +63,7 @@ protected:
 	/// This function should not be called directly, it is used by sRestoreFromBinaryState.
 	virtual void		RestoreBinaryState(StreamIn &inStream);
 
-private:
+// private:
 	/// If the path is looping or not. If a path is looping, the first and last point are automatically connected to each other. They should not be the same points.
 	bool				mIsLooping = false;
 };

@@ -248,7 +248,7 @@ struct LogReporter : public ConsoleReporter
 	REPORTER_OVERRIDE(log_message, const MessageData &, in)
 	REPORTER_OVERRIDE(test_case_skipped, const TestCaseData &, in)
 
-private:
+// private:
 	thread_local static std::ostringstream mStream;
 };
 

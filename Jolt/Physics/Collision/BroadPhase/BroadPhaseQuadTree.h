@@ -46,7 +46,7 @@ public:
 	virtual void			ReportStats() override;
 #endif // JPH_TRACK_BROADPHASE_STATS
 
-private:
+// private:
 	/// Helper struct for AddBodies handle
 	struct LayerState
 	{

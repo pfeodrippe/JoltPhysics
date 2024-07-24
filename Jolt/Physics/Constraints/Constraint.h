@@ -210,7 +210,7 @@ protected:
 	float						mDrawConstraintSize;
 #endif // JPH_DEBUG_RENDERER
 
-private:
+// private:
 	friend class ConstraintManager;
 
 	/// Index that indicates this constraint is not in the constraint manager

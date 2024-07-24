@@ -24,7 +24,7 @@ template <class T> using Queue = std::queue<T, std::deque<T, STLAllocator<T>>>;
 /// class for the text and binary output streams (ObjectStreamTextOut and ObjectStreamBinaryOut).
 class JPH_EXPORT ObjectStreamOut : public IObjectStreamOut
 {
-private:
+// private:
 	struct ObjectInfo;
 
 public:
@@ -77,7 +77,7 @@ protected:
 
 	ostream &					mStream;
 
-private:
+// private:
 	struct ObjectInfo
 	{
 								ObjectInfo()												: mIdentifier(0), mRTTI(nullptr) { }

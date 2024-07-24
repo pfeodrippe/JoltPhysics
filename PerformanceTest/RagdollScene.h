@@ -130,7 +130,7 @@ public:
 		mRagdolls.clear();
 	}
 
-private:
+// private:
 	int						mNumPilesPerAxis;
 	int						mPileSize;
 	float					mVerticalSeparation;

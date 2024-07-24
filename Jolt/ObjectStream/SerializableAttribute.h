@@ -89,7 +89,7 @@ public:
 		mWriteDataType(ioStream);
 	}
 
-private:
+// private:
 	// Name of the attribute
 	const char *				mName;
 

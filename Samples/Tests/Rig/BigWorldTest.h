@@ -34,7 +34,7 @@ public:
 	virtual String			GetStatusString() const override							{ return "Define JPH_DOUBLE_PRECISION for an accurate simulation!"; }
 #endif // JPH_DOUBLE_PRECISION
 
-private:
+// private:
 	// If we want to draw the further scenes in wireframe
 	inline static bool		sDrawWireframe = true;
 

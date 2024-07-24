@@ -64,7 +64,7 @@ public:
 	/// Restore the state of this object from inStream.
 	static SkeletonResult	sRestoreFromBinaryState(StreamIn &inStream);
 
-private:
+// private:
 	/// Joints
 	JointVector				mJoints;
 };

@@ -54,7 +54,7 @@ public:
 		JPH_PLATFORM_BLUE_MUTEX_UNLOCK(mMutex);
 	}
 
-private:
+// private:
 	JPH_PLATFORM_BLUE_MUTEX		mMutex;
 };
 
@@ -102,7 +102,7 @@ public:
 		JPH_PLATFORM_BLUE_RWLOCK_RUNLOCK(mRWLock);
 	}
 
-private:
+// private:
 	JPH_PLATFORM_BLUE_RWLOCK	mRWLock;
 };
 
@@ -156,7 +156,7 @@ public:
 	}
 #endif // JPH_ENABLE_ASSERTS
 
-private:
+// private:
 	JPH_IF_ENABLE_ASSERTS(thread::id mLockedThreadID;)
 };
 
@@ -209,7 +209,7 @@ public:
 		}
 	}
 
-private:
+// private:
 	JPH_IF_ENABLE_ASSERTS(thread::id mLockedThreadID;)
 };
 

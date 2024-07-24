@@ -12,7 +12,7 @@ JPH_NAMESPACE_BEGIN
 /// This implementation uses a table and constructs itself from an ObjectLayerPairFilter and a BroadPhaseLayerInterface.
 class ObjectVsBroadPhaseLayerFilterTable : public ObjectVsBroadPhaseLayerFilter
 {
-private:
+// private:
 	/// Get which bit corresponds to the pair (inLayer1, inLayer2)
 	uint					GetBit(ObjectLayer inLayer1, BroadPhaseLayer inLayer2) const
 	{
@@ -58,7 +58,7 @@ public:
 		return (mTable[bit >> 3] & (1 << (bit & 0b111))) != 0;
 	}
 
-private:
+// private:
 	uint					mNumBroadPhaseLayers;						///< The total number of broadphase layers
 	Array<uint8>			mTable;										///< The table of bits that indicates which layers collide
 };

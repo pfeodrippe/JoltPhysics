@@ -57,7 +57,7 @@ public:
 	/// After you're done calling the three functions above, call this function to free associated data
 	void					ResetIslands(TempAllocator *inTempAllocator);
 
-private:
+// private:
 	/// Returns the index of the lowest body in the group
 	uint32					GetLowestBodyIndex(uint32 inActiveBodyIndex) const;
 

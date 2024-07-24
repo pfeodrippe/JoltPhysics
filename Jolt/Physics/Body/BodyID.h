@@ -90,7 +90,7 @@ public:
 		return mID > inRHS.mID;
 	}
 
-private:
+// private:
 	uint32					mID;
 };
 

@@ -38,7 +38,7 @@ public:
 	virtual void			SaveInputState(StateRecorder &inStream) const override;
 	virtual void			RestoreInputState(StateRecorder &inStream) override;
 
-private:
+// private:
 	// Calculate new ship velocity
 	void					UpdateShipVelocity();
 

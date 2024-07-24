@@ -35,7 +35,7 @@ public:
 	/// Get the current value of the semaphore
 	inline int			GetValue() const								{ return mCount; }
 
-private:
+// private:
 #ifdef JPH_PLATFORM_WINDOWS
 	// On windows we use a semaphore object since it is more efficient than a lock and a condition variable
 	alignas(JPH_CACHE_LINE_SIZE) atomic<int> mCount { 0 };				///< We increment mCount for every release, to acquire we decrement the count. If the count is negative we know that we are waiting on the actual semaphore.

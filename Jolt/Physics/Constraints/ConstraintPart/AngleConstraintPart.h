@@ -246,7 +246,7 @@ public:
 		inStream.Read(mTotalLambda);
 	}
 
-private:
+// private:
 	Vec3						mInvI1_Axis;
 	Vec3						mInvI2_Axis;
 	float						mEffectiveMass = 0.0f;

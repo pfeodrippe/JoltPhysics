@@ -35,7 +35,7 @@ JPH_NAMESPACE_BEGIN
 /// - The closest point indicates the position / direction of least penetration
 class EPAPenetrationDepth
 {
-private:
+// private:
 	// Typedefs
 	static constexpr int cMaxPoints = EPAConvexHullBuilder::cMaxPoints;
 	static constexpr int cMaxPointsToIncludeOriginInHull = 32;

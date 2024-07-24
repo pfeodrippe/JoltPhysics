@@ -126,7 +126,7 @@ public:
 	inline float				GetTotalLambdaRotationLimits() const					{ return mRotationLimitsConstraintPart.GetTotalLambda(); }
 	inline float				GetTotalLambdaMotor() const								{ return mMotorConstraintPart.GetTotalLambda(); }
 
-private:
+// private:
 	// Internal helper function to calculate the values below
 	void						CalculateA1AndTheta();
 	void						CalculateRotationLimitsConstraintProperties(float inDeltaTime);

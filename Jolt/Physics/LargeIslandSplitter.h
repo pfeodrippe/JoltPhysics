@@ -23,7 +23,7 @@ class CalculateSolverSteps;
 /// See: http://web.eecs.umich.edu/~msmelyan/papers/physsim_onmanycore_itj.pdf section "PARALLELIZATION METHODOLOGY"
 class LargeIslandSplitter : public NonCopyable
 {
-private:
+// private:
 	using					SplitMask = uint32;
 
 public:
@@ -164,7 +164,7 @@ public:
 	/// Reset the island splitter
 	void					Reset(TempAllocator *inTempAllocator);
 
-private:
+// private:
 	static constexpr uint	cSplitCombineTreshold = 32;							///< If the number of constraints + contacts in a split is lower than this, we will merge this split into the 'non-parallel split'
 	static constexpr uint	cBatchSize = 16;									///< Number of items to process in a constraint batch
 

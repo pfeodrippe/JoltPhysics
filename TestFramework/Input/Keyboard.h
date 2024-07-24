@@ -43,7 +43,7 @@ public:
 	uint							GetVKValue();						///< Get VK_* constant value for last key returned by GetFirstKey or GetNextKey
 	char							GetASCIIValue();					///< Get ASCII value for last key returned by GetFirstKey or GetNextKey
 
-private:
+// private:
 	void							Reset();
 	void							ResetKeyboard();
 

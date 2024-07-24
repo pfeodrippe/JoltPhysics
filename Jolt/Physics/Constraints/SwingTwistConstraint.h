@@ -152,7 +152,7 @@ public:
 	inline float				GetTotalLambdaSwingZ() const								{ return mSwingTwistConstraintPart.GetTotalSwingZLambda(); }
 	inline Vec3					GetTotalLambdaMotor() const									{ return Vec3(mMotorConstraintPart[0].GetTotalLambda(), mMotorConstraintPart[1].GetTotalLambda(), mMotorConstraintPart[2].GetTotalLambda()); }
 
-private:
+// private:
 	// Update the limits in the swing twist constraint part
 	void						UpdateLimits();
 

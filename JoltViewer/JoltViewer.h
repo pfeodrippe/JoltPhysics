@@ -29,7 +29,7 @@ public:
 	// Update the application
 	virtual bool			UpdateFrame(float inDeltaTime) override;
 
-private:
+// private:
 	enum class EPlaybackMode
 	{
 		Rewind,

@@ -111,7 +111,7 @@ protected:
 	// See: Shape::RestoreBinaryState
 	virtual void			RestoreBinaryState(StreamIn &inStream) override;
 
-private:
+// private:
 	// Get the radius of this sphere scaled by inScale
 	inline float			GetScaledRadius(Vec3Arg inScale) const;
 

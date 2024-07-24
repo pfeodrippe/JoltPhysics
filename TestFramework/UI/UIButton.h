@@ -22,7 +22,7 @@ public:
 	/// Set quad
 	void				SetButtonQuad(const UITexturedQuad &inQuad);
 
-private:
+// private:
 	UITexturedQuad		mUpQuad;
 	Color				mUpColor { Color(220, 220, 220) };
 	UITexturedQuad		mDownQuad;

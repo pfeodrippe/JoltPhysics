@@ -76,7 +76,7 @@ public:
 	inline Vec3					GetTotalLambdaPosition() const								{ return mPointConstraintPart.GetTotalLambda(); }
 	inline Vec3					GetTotalLambdaRotation() const								{ return mRotationConstraintPart.GetTotalLambda(); }
 
-private:
+// private:
 	// CONFIGURATION PROPERTIES FOLLOW
 
 	// Local space constraint positions

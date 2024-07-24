@@ -73,7 +73,7 @@ public:
 		return *mBody;
 	}
 
-private:
+// private:
 	const BodyLockInterface &	mBodyLockInterface;
 	SharedMutex *				mBodyLockMutex;
 	BodyType *					mBody;

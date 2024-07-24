@@ -52,7 +52,7 @@ void CollisionDispatch::sReversedCollideShape(const Shape *inShape1, const Shape
 			UpdateEarlyOutFraction(mCollector.GetEarlyOutFraction());
 		}
 
-	private:
+	// private:
 		CollideShapeCollector &	mCollector;
 	};
 
@@ -83,7 +83,7 @@ void CollisionDispatch::sReversedCastShape(const ShapeCast &inShapeCast, const S
 			UpdateEarlyOutFraction(mCollector.GetEarlyOutFraction());
 		}
 
-	private:
+	// private:
 		CastShapeCollector &	mCollector;
 		Vec3					mWorldDirection;
 	};

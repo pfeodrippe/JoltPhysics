@@ -124,6 +124,6 @@ protected:
 	DebugRenderer *	mDebugRenderer = nullptr;
 	TempAllocator *	mTempAllocator = nullptr;
 
-private:
+// private:
 	bool			mNeedsRestart = false;
 };

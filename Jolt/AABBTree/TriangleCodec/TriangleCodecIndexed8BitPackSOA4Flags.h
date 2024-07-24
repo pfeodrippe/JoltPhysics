@@ -113,7 +113,7 @@ public:
 			return quantized_vertex[0] == quantized_vertex[1] || quantized_vertex[1] == quantized_vertex[2] || quantized_vertex[0] == quantized_vertex[2];
 		}
 
-	private:
+	// private:
 		const VertexList &			mVertices;
 		AABox						mBounds;
 	};
@@ -240,7 +240,7 @@ public:
 			(bounds.GetSize() / Vec3::sReplicate(COMPONENT_MASK)).StoreFloat3(&ioHeader->mScale);
 		}
 
-	private:
+	// private:
 		using VertexMap = Array<uint32>;
 
 		uint						mNumTriangles = 0;
@@ -252,7 +252,7 @@ public:
 	/// This class is used to decode and decompress triangle data packed by the EncodingContext
 	class DecodingContext
 	{
-	private:
+	// private:
 		/// Private helper functions to unpack the 1 vertex of 4 triangles (outX contains the x coordinate of triangle 0 .. 3 etc.)
 		JPH_INLINE void				Unpack(const VertexData *inVertices, UVec4Arg inIndex, Vec4 &outX, Vec4 &outY, Vec4 &outZ) const
 		{
@@ -443,7 +443,7 @@ public:
 			sGetFlags(inTriangleStart, inNumTriangles, outTriangleFlags);
 		}
 
-	private:
+	// private:
 		Vec4						mOffsetX;
 		Vec4						mOffsetY;
 		Vec4						mOffsetZ;

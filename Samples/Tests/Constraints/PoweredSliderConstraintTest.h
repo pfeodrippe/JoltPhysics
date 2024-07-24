@@ -19,7 +19,7 @@ public:
 	virtual bool			HasSettingsMenu() const override							{ return true; }
 	virtual void			CreateSettingsMenu(DebugUI *inUI, UIElement *inSubMenu) override;
 
-private:
+// private:
 	inline static float		sMaxMotorAcceleration = 250.0f;
 	inline static float		sMaxFrictionAcceleration = 0.0f;
 	inline static float		sFrequency = 2.0f;

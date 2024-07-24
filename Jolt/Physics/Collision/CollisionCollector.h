@@ -94,7 +94,7 @@ public:
 	/// Get the current early out value but make sure it's bigger than zero, this is used for shape casting as negative values are used for penetration
 	inline float			GetPositiveEarlyOutFraction() const				{ return max(FLT_MIN, mEarlyOutFraction); }
 
-private:
+// private:
 	/// The early out fraction determines the fraction below which the collector is still accepting a hit (can be used to reduce the amount of work)
 	float					mEarlyOutFraction = TraitsType::InitialEarlyOutFraction;
 

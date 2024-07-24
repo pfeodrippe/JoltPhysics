@@ -20,7 +20,7 @@ public:
 	virtual bool				HasSettingsMenu() const override							{ return true; }
 	virtual void				CreateSettingsMenu(DebugUI *inUI, UIElement *inSubMenu) override;
 
-private:
+// private:
 	static Vec3					sBodyRotation[2];
 	inline static EMotorState	sSwingMotorState = EMotorState::Velocity;
 	inline static EMotorState	sTwistMotorState = EMotorState::Velocity;

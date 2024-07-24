@@ -143,7 +143,7 @@ protected:
 		/// Assignment
 		void			Set(int inValue, EUnits inUnits);
 
-	private:
+	// private:
 		int				mSize;
 		EUnits			mUnit;
 	};
@@ -161,7 +161,7 @@ protected:
 		/// Assignment
 		void			Set(int inValue, EUnits inUnits, EAlignment inAlignment);
 
-	private:
+	// private:
 		EAlignment		mAlignment;
 		Size			mSize;
 	};

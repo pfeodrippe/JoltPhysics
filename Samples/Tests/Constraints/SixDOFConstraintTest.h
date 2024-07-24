@@ -19,7 +19,7 @@ public:
 	virtual bool			HasSettingsMenu() const override							{ return true; }
 	virtual void			CreateSettingsMenu(DebugUI *inUI, UIElement *inSubMenu) override;
 
-private:
+// private:
 	using SettingsRef = Ref<SixDOFConstraintSettings>;
 	using EAxis = SixDOFConstraintSettings::EAxis;
 

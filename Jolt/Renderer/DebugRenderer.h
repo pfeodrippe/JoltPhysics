@@ -276,7 +276,7 @@ protected:
 	/// Initialize the system, must be called from the constructor of the DebugRenderer implementation
 	void								Initialize();
 
-private:
+// private:
 	/// Recursive helper function for DrawWireUnitSphere
 	void								DrawWireUnitSphereRecursive(RMat44Arg inMatrix, ColorArg inColor, Vec3Arg inDir1, Vec3Arg inDir2, Vec3Arg inDir3, int inLevel);
 

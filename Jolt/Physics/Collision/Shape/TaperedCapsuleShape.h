@@ -101,7 +101,7 @@ protected:
 	// See: Shape::RestoreBinaryState
 	virtual void			RestoreBinaryState(StreamIn &inStream) override;
 
-private:
+// private:
 	// Class for GetSupportFunction
 	class					TaperedCapsule;
 

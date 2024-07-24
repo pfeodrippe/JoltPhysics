@@ -29,7 +29,7 @@ public:
 	virtual void				GetInitialCamera(CameraState &ioState) const override;
 	virtual RMat44				GetCameraPivot(float inCameraHeading, float inCameraPitch) const override;
 
-private:
+// private:
 	Body *						mTankBody;									///< The body of the tank
 	Body *						mTurretBody;								///< The body of the turret of the tank
 	Body *						mBarrelBody;								///< The body of the barrel of the tank

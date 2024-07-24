@@ -72,7 +72,7 @@ public:
 	uint32						Encode(ColorArg inColor) const;
 	const Color					Decode(uint32 inColor) const;
 
-private:
+// private:
 	string_view					mFormatName;														///< User displayable String describing the format
 	int							mBitsPerPixel;														///< Number of bits per pixel
 	int							mNumberOfComponents;												///< Number of color components per pixel

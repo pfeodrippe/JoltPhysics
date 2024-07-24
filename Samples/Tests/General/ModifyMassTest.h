@@ -27,7 +27,7 @@ public:
 	virtual void				OnContactAdded(const Body &inBody1, const Body &inBody2, const ContactManifold &inManifold, ContactSettings &ioSettings) override;
 	virtual void				OnContactPersisted(const Body &inBody1, const Body &inBody2, const ContactManifold &inManifold, ContactSettings &ioSettings) override;
 
-private:
+// private:
 	// Get the scale factor for a body based on its user data
 	static float				sGetInvMassScale(const Body &inBody);
 

@@ -16,6 +16,6 @@ public:
 	virtual void		Initialize() override;
 	virtual void		PrePhysicsUpdate(const PreUpdateParams &inParams) override;
 
-private:
+// private:
 	Body *				mBody;
 };

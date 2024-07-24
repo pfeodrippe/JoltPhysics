@@ -47,7 +47,7 @@ protected:
 	// Add test configuration settings
 	virtual void			AddConfigurationSettings(DebugUI *inUI, UIElement *inSubMenu) override;
 
-private:
+// private:
 	// Character movement settings
 	static inline bool		sEnableCharacterInertia = true;
 

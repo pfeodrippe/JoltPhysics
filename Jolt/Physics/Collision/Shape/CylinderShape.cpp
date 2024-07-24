@@ -156,7 +156,7 @@ public:
 		return mConvexRadius;
 	}
 
-private:
+// private:
 	float			mHalfHeight;
 	float			mRadius;
 	float			mConvexRadius;

@@ -31,7 +31,7 @@ public:
 	/// Activate this texture as the current render target, called by Renderer::SetRenderTarget
 	void								SetAsRenderTarget(bool inSet) const;
 
-private:
+// private:
 	Renderer *							mRenderer;
 
 	int									mWidth;

@@ -21,7 +21,7 @@ public:
 	/// Calculate auto layout
 	virtual void		AutoLayout() override;
 
-private:
+// private:
 	int					mDeltaX = 0;
 	bool				mPlaceInvisibleChildren = false;
 };

@@ -24,7 +24,7 @@ public:
 	// Test will never be deterministic since various threads are trying to concurrently add / remove bodies
 	virtual bool			IsDeterministic() const override							{ return false; }
 
-private:
+// private:
 	// Execute a lambda either on this thread or in a separate job
 	void					Execute(default_random_engine &ioRandom, const char *inName, function<void()> inFunction);
 

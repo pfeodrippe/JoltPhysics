@@ -102,7 +102,7 @@ public:
 	inline Vec3					GetTotalLambdaPosition() const				{ return mPointConstraintPart.GetTotalLambda(); }
 	inline float				GetTotalLambdaRotation() const				{ return mAngleConstraintPart.GetTotalLambda(); }
 
-private:
+// private:
 	// Internal helper function to calculate the values below
 	void						CalculateRotationConstraintProperties(Mat44Arg inRotation1, Mat44Arg inRotation2);
 

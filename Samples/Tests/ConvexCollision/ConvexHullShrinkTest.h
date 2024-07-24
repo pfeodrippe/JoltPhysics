@@ -21,7 +21,7 @@ public:
 	// Number used to scale the terrain and camera movement to the scene
 	virtual float			GetWorldScale() const override								{ return 0.2f; }
 
-private:
+// private:
 	// A list of predefined points to feed the convex hull algorithm
 	using Points = Array<Vec3>;
 	Array<Points>			mPoints;

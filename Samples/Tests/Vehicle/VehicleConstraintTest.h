@@ -28,7 +28,7 @@ public:
 
 	virtual void				CreateSettingsMenu(DebugUI *inUI, UIElement *inSubMenu) override;
 
-private:
+// private:
 	void						UpdateCameraPivot();
 
 	static inline float			sInitialRollAngle = 0;

@@ -549,7 +549,7 @@ TEST_SUITE("ContactListenerTests")
 						OnContactAdded(inBody1, inBody2, inManifold, ioSettings);
 					}
 
-				private:
+				// private:
 					BodyID			mBodyID;
 				};
 

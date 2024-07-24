@@ -79,7 +79,7 @@ public:
 	}
 
 #ifdef JPH_ENABLE_ASSERTS
-private:
+// private:
 	struct LockData
 	{
 		uint32					mLockedMutexes = 0;
@@ -130,7 +130,7 @@ public:
 		PhysicsLock::sUnlock(mLock JPH_IF_ENABLE_ASSERTS(, mContext, mType));
 	}
 
-private:
+// private:
 	LockType &					mLock;
 #ifdef JPH_ENABLE_ASSERTS
 	PhysicsLockContext			mContext;
@@ -158,7 +158,7 @@ public:
 		PhysicsLock::sUnlockShared(mLock JPH_IF_ENABLE_ASSERTS(, mContext, mType));
 	}
 
-private:
+// private:
 	LockType &					mLock;
 #ifdef JPH_ENABLE_ASSERTS
 	PhysicsLockContext			mContext;

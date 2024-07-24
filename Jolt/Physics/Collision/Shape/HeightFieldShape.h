@@ -268,7 +268,7 @@ protected:
 	// See: Shape::RestoreBinaryState
 	virtual void					RestoreBinaryState(StreamIn &inStream) override;
 
-private:
+// private:
 	class							DecodingContext;							///< Context class for walking through all nodes of a heightfield
 	struct							HSGetTrianglesContext;						///< Context class for GetTrianglesStart/Next
 

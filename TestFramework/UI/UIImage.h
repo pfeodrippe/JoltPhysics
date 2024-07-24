@@ -22,6 +22,6 @@ public:
 	/// Draw element
 	virtual void		Draw() const override;
 
-private:
+// private:
 	UITexturedQuad		mImage;
 };

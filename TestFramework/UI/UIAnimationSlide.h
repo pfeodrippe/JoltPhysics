@@ -27,7 +27,7 @@ public:
 	virtual bool	Update(UIElement *inElement, float inDeltaTime) override;
 	virtual void	Exit(UIElement *inElement) override;
 
-private:
+// private:
 	EMode			mSlideMode;
 	int				mSlideDistanceH;
 	int				mSlideDistanceV;

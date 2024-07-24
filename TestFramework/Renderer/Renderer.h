@@ -114,7 +114,7 @@ public:
 	/// Keeps a reference to the resource until the current frame has finished
 	void							RecycleD3DObject(ID3D12Object *inResource);
 
-private:
+// private:
 	// Wait for pending GPU work to complete
 	void							WaitForGpu();
 

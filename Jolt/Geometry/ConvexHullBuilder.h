@@ -129,7 +129,7 @@ public:
 	/// Access to the created faces. Memory is owned by the convex hull builder.
 	const Faces &		GetFaces() const					{ return mFaces; }
 
-private:
+// private:
 	/// Minimal square area of a triangle (used for merging and checking if a triangle is degenerate)
 	static constexpr float cMinTriangleAreaSq = 1.0e-12f;
 

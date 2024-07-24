@@ -59,7 +59,7 @@ public:
 	void				SetValidating(bool inValidating)							{ mIsValidating = inValidating; }
 	bool				IsValidating() const										{ return mIsValidating; }
 
-private:
+// private:
 	bool				mIsValidating = false;
 };
 

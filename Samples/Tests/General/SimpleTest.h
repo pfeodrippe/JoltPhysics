@@ -19,7 +19,7 @@ public:
 	// See: Test
 	virtual void		Initialize() override;
 
-private:
+// private:
 	// A demo of the activation listener
 	class Listener : public BodyActivationListener
 	{

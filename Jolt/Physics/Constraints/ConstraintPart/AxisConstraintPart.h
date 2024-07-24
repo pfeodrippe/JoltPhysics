@@ -669,7 +669,7 @@ public:
 		inStream.Read(mTotalLambda);
 	}
 
-private:
+// private:
 	Float3						mR1PlusUxAxis;
 	Float3						mR2xAxis;
 	Float3						mInvI1_R1PlusUxAxis;

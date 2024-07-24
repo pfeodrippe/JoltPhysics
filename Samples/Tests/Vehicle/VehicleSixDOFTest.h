@@ -23,7 +23,7 @@ public:
 	virtual void			GetInitialCamera(CameraState &ioState) const override;
 	virtual RMat44			GetCameraPivot(float inCameraHeading, float inCameraPitch) const override { return mCameraPivot; }
 
-private:
+// private:
 	static constexpr float	cMaxSteeringAngle = DegreesToRadians(30);
 
 	using EAxis = SixDOFConstraintSettings::EAxis;

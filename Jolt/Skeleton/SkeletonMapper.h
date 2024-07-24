@@ -134,7 +134,7 @@ public:
 	LockedVector &			GetLockedTranslations()														{ return mLockedTranslations; }
 	///@}
 
-private:
+// private:
 	/// Joint mappings
 	MappingVector			mMappings;
 	ChainVector				mChains;

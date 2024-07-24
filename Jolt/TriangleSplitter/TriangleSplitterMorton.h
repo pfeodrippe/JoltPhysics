@@ -24,7 +24,7 @@ public:
 	// See TriangleSplitter::Split
 	virtual bool			Split(const Range &inTriangles, Range &outLeft, Range &outRight) override;
 
-private:
+// private:
 	// Precalculated Morton codes
 	Array<uint32>			mMortonCodes;
 };

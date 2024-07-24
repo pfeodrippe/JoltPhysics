@@ -109,7 +109,7 @@ TEST_SUITE("CollideShapeTests")
 
 			bool			mWasHit = false;
 
-		private:
+		// private:
 			const Body &	mBody2;
 		};
 		PositionACollideShapeCollector position_a_collector(body2);
@@ -156,7 +156,7 @@ TEST_SUITE("CollideShapeTests")
 
 			bool			mWasHit = false;
 
-		private:
+		// private:
 			const Body &	mBody2;
 		};
 		PositionBCollideShapeCollector position_b_collector(body2);

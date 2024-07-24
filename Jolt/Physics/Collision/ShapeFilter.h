@@ -65,7 +65,7 @@ public:
 		return mFilter.ShouldCollide(inShape2, inSubShapeIDOfShape2, inShape1, inSubShapeIDOfShape1);
 	}
 
-private:
+// private:
 	const ShapeFilter &		mFilter;
 };
 

@@ -21,7 +21,7 @@ public:
 
 	virtual void					Initialize() override;
 
-private:
+// private:
 	// Our ragdoll
 	Ref<Ragdoll>					mRagdoll;
 };

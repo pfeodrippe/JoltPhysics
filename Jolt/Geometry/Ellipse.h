@@ -69,7 +69,7 @@ public:
 		return Float2(inPoint.x / Square(mA), inPoint.y / Square(mB));
 	}
 
-private:
+// private:
 	float			mA;				///< Radius along X-axis
 	float			mB;				///< Radius along Y-axis
 };

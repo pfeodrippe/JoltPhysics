@@ -28,7 +28,7 @@ public:
 	/// Draw the instances when context has been set by Renderer::BindShader
 	void					Draw(RenderPrimitive *inPrimitive, int inStartInstance, int inNumInstances) const;
 
-private:
+// private:
 	Renderer *				mRenderer;
 
 	ComPtr<ID3D12Resource>	mInstanceBuffer;

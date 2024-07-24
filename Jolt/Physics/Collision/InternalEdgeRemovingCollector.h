@@ -228,7 +228,7 @@ public:
 		wrapper.Flush();
 	}
 
-private:
+// private:
 	CollideShapeCollector &	mChainedCollector;
 	StaticArray<Float3, cMaxVoidedFeatures> mVoidedFeatures; // Read with Vec3::sLoadFloat3Unsafe so must not be the last member
 	StaticArray<CollideShapeResult, cMaxDelayedResults> mDelayedResults;

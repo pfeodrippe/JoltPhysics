@@ -94,7 +94,7 @@ public:
 		Array<GeometryBlob>				mGeometries;
 	};
 
-private:
+// private:
 	/// Implementation specific batch object
 	class BatchImpl : public RefTargetVirtual
 	{

@@ -27,7 +27,7 @@ public:
 	// See TriangleSplitter::Split
 	virtual bool			Split(const Range &inTriangles, Range &outLeft, Range &outRight) override;
 
-private:
+// private:
 	/// Get centroid for group
 	Vec3					GetCentroidForGroup(uint inFirstTriangleInGroup);
 

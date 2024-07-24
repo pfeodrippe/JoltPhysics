@@ -101,7 +101,7 @@ public:
 			track->mStat.mHitsReported++;
 	}
 
-private:
+// private:
 	uint64					mStart;
 };
 

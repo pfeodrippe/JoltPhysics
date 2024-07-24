@@ -30,7 +30,7 @@ public:
 	virtual void		FindCollidingPairs(BodyID *ioActiveBodies, int inNumActiveBodies, float inSpeculativeContactDistance, const ObjectVsBroadPhaseLayerFilter &inObjectVsBroadPhaseLayerFilter, const ObjectLayerPairFilter &inObjectLayerPairFilter, BodyPairCollector &ioPairCollector) const override;
 	virtual AABox		GetBounds() const override;
 
-private:
+// private:
 	Array<BodyID>		mBodyIDs;
 	mutable SharedMutex	mMutex;
 };

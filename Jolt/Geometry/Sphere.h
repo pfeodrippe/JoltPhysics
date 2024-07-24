@@ -64,7 +64,7 @@ public:
 		}
 	}
 
-private:
+// private:
 	Float3				mCenter;
 	float				mRadius;
 };

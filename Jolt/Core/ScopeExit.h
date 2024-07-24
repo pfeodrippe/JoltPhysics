@@ -35,7 +35,7 @@ public:
 		mInvoked = true;
 	}
 
-private:
+// private:
 	F					mFunction;
 	bool				mInvoked = false;
 };

@@ -41,7 +41,7 @@ public:
 	/// Show or hide the entire menu
 	void				ToggleVisibility();
 
-private:
+// private:
 	UIManager *			mUI;
 	RefConst<Font>		mFont;
 	RefConst<Texture>	mUITexture;

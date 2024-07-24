@@ -131,7 +131,7 @@ public:
 	inline Vector<2>				GetTotalLambdaRotationHinge() const						{ return mHingeConstraintPart.GetTotalLambda(); }
 	inline Vec3						GetTotalLambdaRotation() const							{ return mRotationConstraintPart.GetTotalLambda(); }
 
-private:
+// private:
 	// Internal helper function to calculate the values below
 	void							CalculateConstraintProperties(float inDeltaTime);
 

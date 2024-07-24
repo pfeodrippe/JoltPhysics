@@ -21,7 +21,7 @@ namespace JPH {
 
 class Application
 {
-private:
+// private:
 	/// Camera state
 	CameraState					mLocalCamera;
 	CameraState					mWorldCamera;
@@ -86,7 +86,7 @@ protected:
 	/// Clear debug lines / triangles / texts that have been accumulated
 	void						ClearDebugRenderer();
 
-private:
+// private:
 	/// Extract heading and pitch from the local space (relative to the camera pivot) camera forward
 	void						GetCameraLocalHeadingAndPitch(float &outHeading, float &outPitch);
 

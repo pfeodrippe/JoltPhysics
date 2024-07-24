@@ -88,7 +88,7 @@ public:
 	void					LockAllConstraints()						{ PhysicsLock::sLock(mConstraintsMutex JPH_IF_ENABLE_ASSERTS(, mLockContext, EPhysicsLockTypes::ConstraintsList)); }
 	void					UnlockAllConstraints()						{ PhysicsLock::sUnlock(mConstraintsMutex JPH_IF_ENABLE_ASSERTS(, mLockContext, EPhysicsLockTypes::ConstraintsList)); }
 
-private:
+// private:
 #ifdef JPH_ENABLE_ASSERTS
 	PhysicsLockContext		mLockContext;
 #endif // JPH_ENABLE_ASSERTS

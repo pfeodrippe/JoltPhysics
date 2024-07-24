@@ -131,7 +131,7 @@ class ImageFilterLanczos3 : public ImageFilter
 			return 0.0f;
 	}
 
-private:
+// private:
 	static float Sinc(float x)
 	{
 		x *= JPH_PI;

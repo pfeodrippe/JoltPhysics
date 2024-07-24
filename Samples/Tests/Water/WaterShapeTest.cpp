@@ -118,7 +118,7 @@ void WaterShapeTest::PrePhysicsUpdate(const PreUpdateParams &inParams)
 				body.ApplyBuoyancyImpulse(mSurfacePosition, mSurfaceNormal, 1.1f, 0.3f, 0.05f, Vec3::sZero(), mSystem->GetGravity(), mDeltaTime);
 		}
 
-	private:
+	// private:
 		PhysicsSystem *			mSystem;
 		RVec3					mSurfacePosition;
 		Vec3					mSurfaceNormal;

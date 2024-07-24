@@ -42,7 +42,7 @@ protected:
 	// Handle user input to the character
 	virtual void			HandleInput(Vec3Arg inMovementDirection, bool inJump, bool inSwitchStance, float inDeltaTime) override;
 
-private:
+// private:
 	// The 'player' character
 	Ref<Character>			mCharacter;
 };

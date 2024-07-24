@@ -25,7 +25,7 @@ public:
 	virtual SoftBodyValidateResult	OnSoftBodyContactValidate(const Body &inSoftBody, const Body &inOtherBody, SoftBodyContactSettings &ioSettings) override;
 	virtual void					OnSoftBodyContactAdded(const Body &inSoftBody, const SoftBodyManifold &inManifold) override;
 
-private:
+// private:
 	void							StartCycle();
 
 	float							mTime = 0.0f;

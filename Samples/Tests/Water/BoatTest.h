@@ -31,7 +31,7 @@ public:
 	virtual void				OnContactAdded(const Body &inBody1, const Body &inBody2, const ContactManifold &inManifold, ContactSettings &ioSettings) override;
 	virtual void				OnContactRemoved(const SubShapeIDPair &inSubShapePair) override;
 
-private:
+// private:
 	void						UpdateCameraPivot();
 
 	// Determines the water surface position at a given XZ position

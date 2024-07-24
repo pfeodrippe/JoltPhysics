@@ -41,7 +41,7 @@ public:
 
 	void							SetExclusive(bool inExclusive = true);
 
-private:
+// private:
 	void							DetectParsecRunning();
 	void							Reset();
 	void							ResetMouse();

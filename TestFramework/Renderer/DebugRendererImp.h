@@ -47,7 +47,7 @@ public:
 	/// Clear all primitives (to be called after drawing)
 	void								Clear();
 
-private:
+// private:
 	/// Helper functions to draw sub parts
 	void								DrawLines();
 	void								DrawTriangles();

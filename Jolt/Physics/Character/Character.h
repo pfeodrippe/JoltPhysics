@@ -123,7 +123,7 @@ public:
 	/// @param inLockBodies If the collision query should use the locking body interface (true) or the non locking body interface (false)
 	void								CheckCollision(RVec3Arg inPosition, QuatArg inRotation, Vec3Arg inMovementDirection, float inMaxSeparationDistance, const Shape *inShape, RVec3Arg inBaseOffset, CollideShapeCollector &ioCollector, bool inLockBodies = true) const;
 
-private:
+// private:
 	/// Check collisions between inShape and the world using the center of mass transform
 	void								CheckCollision(RMat44Arg inCenterOfMassTransform, Vec3Arg inMovementDirection, float inMaxSeparationDistance, const Shape *inShape, RVec3Arg inBaseOffset, CollideShapeCollector &ioCollector, bool inLockBodies) const;
 

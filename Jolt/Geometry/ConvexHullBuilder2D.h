@@ -40,7 +40,7 @@ public:
 	/// @return Status code that reports if the hull was created or not
 	EResult				Initialize(int inIdx1, int inIdx2, int inIdx3, int inMaxVertices, float inTolerance, Edges &outEdges);
 
-private:
+// private:
 #ifdef JPH_CONVEX_BUILDER_2D_DEBUG
 	/// Factor to scale convex hull when debug drawing the construction process
 	static constexpr Real cDrawScale = 10;

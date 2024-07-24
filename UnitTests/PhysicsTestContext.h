@@ -93,7 +93,7 @@ public:
 	void				RecordDebugOutput(const char *inFileName);
 #endif // JPH_DEBUG_RENDERER
 
-private:
+// private:
 	TempAllocator *		mTempAllocator;
 	JobSystem *			mJobSystem;
 	BPLayerInterfaceImpl mBroadPhaseLayerInterface;

@@ -16,7 +16,7 @@ JPH_NAMESPACE_BEGIN
 template <typename Object>
 class FixedSizeFreeList : public NonCopyable
 {
-private:
+// private:
 	/// Storage type for an Object
 	struct ObjectStorage
 	{

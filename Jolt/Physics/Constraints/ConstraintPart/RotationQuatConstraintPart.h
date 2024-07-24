@@ -85,7 +85,7 @@ JPH_NAMESPACE_BEGIN
 /// - Game Physics Pearls - Section 9 - Quaternion Based Constraints - Claude Lacoursiere
 class RotationQuatConstraintPart
 {
-private:
+// private:
 	/// Internal helper function to update velocities of bodies after Lagrange multiplier is calculated
 	JPH_INLINE bool				ApplyVelocityStep(Body &ioBody1, Body &ioBody2, Vec3Arg inLambda) const
 	{
@@ -235,7 +235,7 @@ public:
 		inStream.Read(mTotalLambda);
 	}
 
-private:
+// private:
 	Mat44						mInvI1_JPT;
 	Mat44						mInvI2_JPT;
 	Mat44						mEffectiveMass;

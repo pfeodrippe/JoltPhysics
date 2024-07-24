@@ -70,7 +70,7 @@ public:
 		return mHeap.Get();
 	}
 
-private:
+// private:
 	ComPtr<ID3D12DescriptorHeap>		mHeap;
 	uint								mDescriptorSize;				///< The size (in bytes) of a single heap descriptor
 	Array<uint>							mFreeList;						///< List of indices in the heap that are still free

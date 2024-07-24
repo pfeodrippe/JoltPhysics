@@ -19,7 +19,7 @@ public:
 	// Update the test, called before the physics update
 	virtual void			PrePhysicsUpdate(const PreUpdateParams &inParams) override;
 
-private:
+// private:
 	default_random_engine	mRandomGenerator;
 	size_t					mCurrentBody = 0;
 	int						mDirection = 1;

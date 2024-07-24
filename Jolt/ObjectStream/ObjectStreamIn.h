@@ -21,7 +21,7 @@ JPH_NAMESPACE_BEGIN
 /// class for the text and binary input streams (ObjectStreamTextIn and ObjectStreamBinaryIn).
 class JPH_EXPORT ObjectStreamIn : public IObjectStreamIn
 {
-private:
+// private:
 	struct ClassDescription;
 
 public:
@@ -98,7 +98,7 @@ protected:
 
 	istream &					mStream;
 
-private:
+// private:
 	/// Class descriptions
 	struct AttributeDescription
 	{

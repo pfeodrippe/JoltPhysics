@@ -34,7 +34,7 @@ JPH_NAMESPACE_BEGIN
 /// E = identity matrix.\n
 class RotationEulerConstraintPart
 {
-private:
+// private:
 	/// Internal helper function to update velocities of bodies after Lagrange multiplier is calculated
 	JPH_INLINE bool				ApplyVelocityStep(Body &ioBody1, Body &ioBody2, Vec3Arg inLambda) const
 	{
@@ -260,7 +260,7 @@ public:
 		inStream.Read(mTotalLambda);
 	}
 
-private:
+// private:
 	Mat44						mInvI1;
 	Mat44						mInvI2;
 	Mat44						mEffectiveMass;

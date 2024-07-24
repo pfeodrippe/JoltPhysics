@@ -90,7 +90,7 @@ public:
 	/// For debugging purposes: Construct a scene from the current state of the physics system
 	void									FromPhysicsSystem(const PhysicsSystem *inSystem);
 
-private:
+// private:
 	/// The bodies that are part of this scene
 	Array<BodyCreationSettings>				mBodies;
 

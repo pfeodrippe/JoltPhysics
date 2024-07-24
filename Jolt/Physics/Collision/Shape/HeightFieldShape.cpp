@@ -2037,7 +2037,7 @@ public:
 		return mTop < 0;
 	}
 
-private:
+// private:
 	const HeightFieldShape *	mShape;
 	int							mTop = 0;
 	uint32						mPropertiesStack[cStackSize];

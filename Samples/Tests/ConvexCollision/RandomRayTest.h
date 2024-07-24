@@ -15,7 +15,7 @@ public:
 	// Update the test, called before the physics update
 	virtual void	PrePhysicsUpdate(const PreUpdateParams &inParams) override;
 
-private:
+// private:
 	template <typename A, typename Context>
 	void			TestRay(const char *inTestName, RVec3Arg inRenderOffset, const A &inA, const Context &inContext, float (*inCompareFunc)(const Context &inContext, Vec3Arg inRayOrigin, Vec3Arg inRayDirection));
 };

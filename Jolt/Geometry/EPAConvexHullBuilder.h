@@ -22,7 +22,7 @@ JPH_NAMESPACE_BEGIN
 /// A convex hull builder specifically made for the EPA penetration depth calculation. It trades accuracy for speed and will simply abort of the hull forms defects due to numerical precision problems.
 class EPAConvexHullBuilder : public NonCopyable
 {
-private:
+// private:
 #ifdef JPH_EPA_CONVEX_BUILDER_DRAW
 	/// Factor to scale convex hull when debug drawing the construction process
 	static constexpr Real cDrawScale = 10;
@@ -101,7 +101,7 @@ public:
 	/// Factory that creates triangles in a fixed size buffer
 	class TriangleFactory : public NonCopyable
 	{
-	private:
+	// private:
 		/// Struct that stores both a triangle or a next pointer in case the triangle is unused
 		union alignas(Triangle) Block
 		{
@@ -381,7 +381,7 @@ public:
 		mFactory.FreeTriangle(inT);
 	}
 
-private:
+// private:
 	/// Create a new triangle
 	Triangle *			CreateTriangle(int inIdx1, int inIdx2, int inIdx3)
 	{
@@ -691,7 +691,7 @@ public:
 	}
 #endif
 
-private:
+// private:
 	TriangleFactory		mFactory;							///< Factory to create new triangles and remove old ones
 	const Points &		mPositions;							///< List of positions (some of them are part of the hull)
 	TriangleQueue		mTriangleQueue;						///< List of triangles that are part of the hull that still need to be checked (if !mRemoved)

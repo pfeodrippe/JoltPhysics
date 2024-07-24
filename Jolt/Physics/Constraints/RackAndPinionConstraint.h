@@ -84,7 +84,7 @@ public:
 	///@name Get Lagrange multiplier from last physics update (the linear/angular impulse applied to satisfy the constraint)
 	inline float				GetTotalLambda() const													{ return mRackAndPinionConstraintPart.GetTotalLambda(); }
 
-private:
+// private:
 	// Internal helper function to calculate the values below
 	void						CalculateConstraintProperties(Mat44Arg inRotation1, Mat44Arg inRotation2);
 

@@ -60,7 +60,7 @@ public:
 		return mBodyLockInterface.TryGetBody(body_id);
 	}
 
-private:
+// private:
 	const BodyLockInterface &	mBodyLockInterface;
 	MutexMask					mMutexMask;
 	const BodyID *				mBodyIDs;

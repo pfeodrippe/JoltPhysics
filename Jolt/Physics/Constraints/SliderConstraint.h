@@ -128,7 +128,7 @@ public:
 	inline Vec3					GetTotalLambdaRotation() const							{ return mRotationConstraintPart.GetTotalLambda(); }
 	inline float				GetTotalLambdaMotor() const								{ return mMotorConstraintPart.GetTotalLambda(); }
 
-private:
+// private:
 	// Internal helper function to calculate the values below
 	void						CalculateR1R2U(Mat44Arg inRotation1, Mat44Arg inRotation2);
 	void						CalculateSlidingAxisAndPosition(Mat44Arg inRotation1);

@@ -72,7 +72,7 @@ public:
 	void						Draw(const DrawSettings &inDrawSettings, DebugRenderer *inRenderer, RMat44Arg inOffset = RMat44::sIdentity()) const;
 #endif // JPH_DEBUG_RENDERER
 
-private:
+// private:
 	RefConst<Skeleton>			mSkeleton;																///< Skeleton definition
 	RVec3						mRootOffset { RVec3::sZero() };											///< Extra offset applied to the root (and therefore also to all of its children)
 	JointStateVector			mJoints;																///< Local joint orientations (local to parent Joint)

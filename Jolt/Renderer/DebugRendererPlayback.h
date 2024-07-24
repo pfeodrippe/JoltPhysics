@@ -30,7 +30,7 @@ public:
 	/// Draw a frame
 	void								DrawFrame(uint inFrameNumber) const;
 
-private:
+// private:
 	/// The debug renderer we're using to do the actual rendering
 	DebugRenderer &						mRenderer;
 

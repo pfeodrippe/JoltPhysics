@@ -85,7 +85,7 @@ public:
 
 	ResultType			mHit;
 
-private:
+// private:
 	bool				mHadHit = false;
 };
 
@@ -127,7 +127,7 @@ public:
 
 	ResultType			mHit;
 
-private:
+// private:
 	bool				mHadHit = false;
 };
 

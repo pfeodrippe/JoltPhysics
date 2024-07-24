@@ -92,7 +92,7 @@ public:
 		return mTop == 0;
 	}
 
-private:
+// private:
 	uint8 *							mBase;							///< Base address of the memory block
 	uint							mSize;							///< Size of the memory block
 	uint							mTop = 0;						///< Current top of the stack

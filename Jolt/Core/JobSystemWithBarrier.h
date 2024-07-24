@@ -40,7 +40,7 @@ public:
 	virtual void			DestroyBarrier(Barrier *inBarrier) override;
 	virtual void			WaitForJobs(Barrier *inBarrier) override;
 
-private:
+// private:
 	class BarrierImpl : public Barrier
 	{
 	public:

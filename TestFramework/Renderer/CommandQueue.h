@@ -106,7 +106,7 @@ public:
 		WaitUntilFinished();
 	}
 
-private:
+// private:
 	ComPtr<ID3D12CommandQueue>			mCommandQueue;								///< The command queue that will hold command lists
 	ComPtr<ID3D12CommandAllocator>		mCommandAllocator;							///< Allocator that holds the memory for the commands
 	ComPtr<ID3D12GraphicsCommandList>	mCommandList;								///< The command list that will hold the render commands / state changes

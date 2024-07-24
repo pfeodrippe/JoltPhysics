@@ -50,7 +50,7 @@ public:
 	using Vec2 = Vector<2>;
 	using Mat22 = Matrix<2, 2>;
 
-private:
+// private:
 	/// Internal helper function to update velocities of bodies after Lagrange multiplier is calculated
 	JPH_INLINE bool				ApplyVelocityStep(Body &ioBody1, Body &ioBody2, Vec3Arg inN1, Vec3Arg inN2, const Vec2 &inLambda) const
 	{
@@ -260,7 +260,7 @@ public:
 		inStream.Read(mTotalLambda);
 	}
 
-private:
+// private:
 	Vec3						mR1PlusUxN1;
 	Vec3						mR1PlusUxN2;
 	Vec3						mR2xN1;

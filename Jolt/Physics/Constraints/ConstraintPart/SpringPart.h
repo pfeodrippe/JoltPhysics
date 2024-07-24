@@ -12,7 +12,7 @@ JPH_MSVC_SUPPRESS_WARNING(4723) // potential divide by 0 - caused by line: outEf
 /// Class used in other constraint parts to calculate the required bias factor in the lagrange multiplier for creating springs
 class SpringPart
 {
-private:
+// private:
 	JPH_INLINE void				CalculateSpringPropertiesHelper(float inDeltaTime, float inInvEffectiveMass, float inBias, float inC, float inStiffness, float inDamping, float &outEffectiveMass)
 	{
 		// Soft constraints as per: Soft Constraints: Reinventing The Spring - Erin Catto - GDC 2011
@@ -161,7 +161,7 @@ public:
 		return mSoftness * inTotalLambda + mBias;
 	}
 
-private:
+// private:
 	float						mBias  = 0.0f;
 	float						mSoftness  = 0.0f;
 };

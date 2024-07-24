@@ -15,7 +15,7 @@ public:
 	// Update the test, called before the physics update
 	virtual void	PrePhysicsUpdate(const PreUpdateParams &inParams) override;
 
-private:
+// private:
 	void			TestLine(Vec3Arg inPosition, Vec3Arg inA, Vec3Arg inB);
 	void			TestTri(Vec3Arg inPosition, Vec3Arg inA, Vec3Arg inB, Vec3Arg inC);
 	void			TestTetra(Vec3Arg inPosition, Vec3Arg inA, Vec3Arg inB, Vec3Arg inC, Vec3Arg inD);

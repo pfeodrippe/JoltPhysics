@@ -116,7 +116,7 @@ protected:
 	// See: Shape::RestoreBinaryState
 	virtual void			RestoreBinaryState(StreamIn &inStream) override;
 
-private:
+// private:
 	// Classes for GetSupportFunction
 	class					CapsuleNoConvex;
 	class					CapsuleWithConvex;

@@ -39,7 +39,7 @@ public:
 	/// Make this pipeline state active (any primitives rendered after this will use this state)
 	void								Activate();
 
-private:
+// private:
 	friend class Renderer;
 
 	Renderer *							mRenderer;

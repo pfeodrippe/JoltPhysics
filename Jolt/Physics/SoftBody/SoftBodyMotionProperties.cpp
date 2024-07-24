@@ -172,7 +172,7 @@ void SoftBodyMotionProperties::DetermineCollidingShapes(const SoftBodyUpdateCont
 			}
 		}
 
-	private:
+	// private:
 		const SoftBodyUpdateContext &mContext;
 		RMat44						mInverseTransform;
 		const BodyLockInterface &	mBodyLockInterface;

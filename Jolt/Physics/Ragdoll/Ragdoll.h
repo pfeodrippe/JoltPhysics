@@ -119,7 +119,7 @@ public:
 	/// A list of constraints that connects two bodies in a ragdoll (for non parent child related constraints)
 	AdditionalConstraintVector			mAdditionalConstraints;
 
-private:
+// private:
 	/// Table that maps a body index (index in mBodyIDs) to the constraint index with which it is connected to its parent. -1 if there is no constraint associated with the body.
 	Array<int>							mBodyIndexToConstraintIndex;
 
@@ -220,7 +220,7 @@ public:
 	/// Get the settings object that created this ragdoll
 	const RagdollSettings *				GetRagdollSettings() const								{ return mRagdollSettings; }
 
-private:
+// private:
 	/// For RagdollSettings::CreateRagdoll function
 	friend class RagdollSettings;
 

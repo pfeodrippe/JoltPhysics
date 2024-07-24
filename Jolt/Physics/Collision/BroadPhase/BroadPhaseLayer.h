@@ -49,7 +49,7 @@ public:
 		return mValue;
 	}
 
-private:
+// private:
 	Type							mValue;
 };
 
@@ -120,7 +120,7 @@ public:
 		return mObjectVsBroadPhaseLayerFilter.ShouldCollide(mLayer, inLayer);
 	}
 
-private:
+// private:
 	const ObjectVsBroadPhaseLayerFilter &mObjectVsBroadPhaseLayerFilter;
 	ObjectLayer						mLayer;
 };
@@ -141,7 +141,7 @@ public:
 		return mLayer == inLayer;
 	}
 
-private:
+// private:
 	BroadPhaseLayer					mLayer;
 };
 

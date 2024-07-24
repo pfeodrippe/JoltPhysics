@@ -79,7 +79,7 @@ public:
 		return true;
 	}
 
-private:
+// private:
 	Vec4			mNormalAndConstant;													///< XYZ = normal, W = constant, plane: x . normal + constant = 0
 };
 

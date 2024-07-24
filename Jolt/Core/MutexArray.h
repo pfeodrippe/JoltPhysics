@@ -81,7 +81,7 @@ public:
 			m->mMutex.unlock();
 	}
 
-private:
+// private:
 	/// Align the mutex to a cache line to ensure there is no false sharing (this is platform dependent, we do this to be safe)
 	struct alignas(JPH_CACHE_LINE_SIZE) MutexStorage
 	{

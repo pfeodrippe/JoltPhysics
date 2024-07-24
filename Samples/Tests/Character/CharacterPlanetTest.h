@@ -43,7 +43,7 @@ public:
 	// See: CharacterContactListener
 	virtual void			OnContactAdded(const CharacterVirtual *inCharacter, const BodyID &inBodyID2, const SubShapeID &inSubShapeID2, RVec3Arg inContactPosition, Vec3Arg inContactNormal, CharacterContactSettings &ioSettings) override;
 
-private:
+// private:
 	// Planet size
 	static constexpr float	cPlanetRadius = 20.0f;
 

@@ -131,7 +131,7 @@ public:
 	/// INTERNAL HELPER FUNCTION USED BY SERIALIZATION
 	void **					InternalGetPointer()							{ return reinterpret_cast<void **>(&mPtr); }
 
-private:
+// private:
 	template <class T2> friend class RefConst;
 
 	/// Use "variable = nullptr;" to release an object, do not call these functions
@@ -187,7 +187,7 @@ public:
 	/// INTERNAL HELPER FUNCTION USED BY SERIALIZATION
 	void **					InternalGetPointer()							{ return const_cast<void **>(reinterpret_cast<const void **>(&mPtr)); }
 
-private:
+// private:
 	/// Use "variable = nullptr;" to release an object, do not call these functions
 	inline void				AddRef()										{ if (mPtr != nullptr) mPtr->AddRef(); }
 	inline void				Release()										{ if (mPtr != nullptr) mPtr->Release(); }

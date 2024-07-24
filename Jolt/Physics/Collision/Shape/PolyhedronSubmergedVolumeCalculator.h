@@ -16,7 +16,7 @@ JPH_NAMESPACE_BEGIN
 /// can be gotten through GetResult.
 class PolyhedronSubmergedVolumeCalculator
 {
-private:
+// private:
 	// Calculate submerged volume * 6 and center of mass * 4 for a tetrahedron with 4 vertices submerged
 	// inV1 .. inV4 are submerged
 	inline static void	sTetrahedronVolume4(Vec3Arg inV1, Vec3Arg inV2, Vec3Arg inV3, Vec3Arg inV4, float &outVolumeTimes6, Vec3 &outCenterTimes4)
@@ -295,7 +295,7 @@ public:
 		outSubmergedVolume = mSubmergedVolume / 6.0f;
 	}
 
-private:
+// private:
 	// The precalculated points for this polyhedron
 	const Point *		mPoints;
 

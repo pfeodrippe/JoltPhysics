@@ -50,7 +50,7 @@ public:
 
 	uint64					GetHash() const					{ return HashBytes(this, sizeof(SubShapeIDPair)); }
 
-private:
+// private:
 	BodyID					mBody1ID;
 	SubShapeID				mSubShapeID1;
 	BodyID					mBody2ID;

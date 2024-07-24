@@ -22,7 +22,7 @@ class JPH_EXPORT QuadTree : public NonCopyable
 public:
 	JPH_OVERRIDE_NEW_DELETE
 
-private:
+// private:
 	// Forward declare
 	class AtomicNodeID;
 
@@ -53,7 +53,7 @@ private:
 		inline bool				operator == (const BodyID &inRHS) const { return mID == inRHS.GetIndexAndSequenceNumber(); }
 		inline bool				operator == (const NodeID &inRHS) const	{ return mID == inRHS.mID; }
 
-	private:
+	// private:
 		friend class AtomicNodeID;
 
 		inline explicit			NodeID(uint32 inID)					: mID(inID) { }
@@ -89,7 +89,7 @@ private:
 		/// Atomically compare and swap value. Expects inOld value, replaces with inNew value or returns false
 		inline bool				CompareExchange(NodeID inOld, NodeID inNew)	{ return mID.compare_exchange_strong(inOld.mID, inNew.mID); }
 
-	private:
+	// private:
 		atomic<uint32>			mID;
 	};
 
@@ -259,7 +259,7 @@ public:
 	void						ReportStats(uint64 inTicks100Pct) const;
 #endif // JPH_TRACK_BROADPHASE_STATS
 
-private:
+// private:
 	/// Constants
 	static const uint32			cInvalidNodeIndex = 0xffffffff;		///< Value used to indicate node index is invalid
 	static const float			cLargeFloat;						///< A large floating point number that is small enough to not cause any overflows

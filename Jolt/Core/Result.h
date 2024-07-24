@@ -153,7 +153,7 @@ public:
 	void				SetError(const string_view &inError)		{ Clear(); ::new (&mError) String(inError); mState = EState::Error; }
 	void				SetError(String &&inError)					{ Clear(); ::new (&mError) String(std::move(inError)); mState = EState::Error; }
 
-private:
+// private:
 	union
 	{
 		Type			mResult;									///< The actual result object

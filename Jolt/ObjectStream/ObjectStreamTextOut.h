@@ -48,7 +48,7 @@ public:
 	virtual void				HintIndentUp() override;
 	virtual void				HintIndentDown() override;
 
-private:
+// private:
 	void						WriteChar(char inChar);
 	void						WriteWord(const string_view &inWord);
 

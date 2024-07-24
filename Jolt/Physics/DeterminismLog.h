@@ -20,7 +20,7 @@ JPH_NAMESPACE_BEGIN
 /// A simple class that logs the state of the simulation. The resulting text file can be used to diff between platforms and find issues in determinism.
 class DeterminismLog
 {
-private:
+// private:
 	JPH_INLINE uint32		Convert(float inValue) const
 	{
 		return *(uint32 *)&inValue;
@@ -137,7 +137,7 @@ public:
 	// Singleton instance
 	static DeterminismLog	sLog;
 
-private:
+// private:
 	std::ofstream			mLog;
 };
 

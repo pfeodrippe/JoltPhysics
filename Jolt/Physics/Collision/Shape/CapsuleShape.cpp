@@ -112,7 +112,7 @@ public:
 		return mConvexRadius;
 	}
 
-private:
+// private:
 	Vec3			mHalfHeightOfCylinder;
 	float			mConvexRadius;
 };
@@ -144,7 +144,7 @@ public:
 		return 0.0f;
 	}
 
-private:
+// private:
 	Vec3			mHalfHeightOfCylinder;
 	float			mRadius;
 };

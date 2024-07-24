@@ -57,7 +57,7 @@ public:
 		return false;
 	}
 
-private:
+// private:
 	Mutex				mLogMutex; // Callbacks are made from a thread, make sure we don't corrupt the log
 	Array<LogEntry>		mLog;
 };

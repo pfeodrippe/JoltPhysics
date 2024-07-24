@@ -106,7 +106,7 @@ protected:
 	// See: Shape::RestoreBinaryState
 	virtual void					RestoreBinaryState(StreamIn &inStream) override;
 
-private:
+// private:
 	// Visitor for GetIntersectingSubShapes
 	template <class BoxType>
 	struct GetIntersectingSubShapesVisitorMC : public GetIntersectingSubShapesVisitor<BoxType>

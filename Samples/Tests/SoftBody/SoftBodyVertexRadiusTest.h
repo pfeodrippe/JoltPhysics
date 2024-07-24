@@ -20,7 +20,7 @@ public:
 	virtual bool			HasSettingsMenu() const override							{ return true; }
 	virtual void			CreateSettingsMenu(DebugUI *inUI, UIElement *inSubMenu) override;
 
-private:
+// private:
 	Ref<SoftBodySharedSettings>	mSharedSettings;
 
 	static inline float		sVertexRadius = 0.01f;

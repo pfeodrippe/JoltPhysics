@@ -39,7 +39,7 @@ public:
 		return inVertex.mHasContact? mCollidingShapes[inVertex.mCollidingShapeIndex].mBodyID : BodyID();
 	}
 
-private:
+// private:
 	/// Allow SoftBodyMotionProperties to construct us
 	friend class SoftBodyMotionProperties;
 

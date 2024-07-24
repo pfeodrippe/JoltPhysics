@@ -304,7 +304,7 @@ public:
 	PhysicsMaterialList mMaterials { PhysicsMaterial::sDefault };	///< The materials of the faces of the body, referenced by Face::mMaterialIndex
 	float				mVertexRadius = 0.0f;						///< How big the particles are, can be used to push the vertices a little bit away from the surface of other bodies to prevent z-fighting
 
-private:
+// private:
 	friend class SoftBodyMotionProperties;
 
 	/// Calculate the closest kinematic vertex array

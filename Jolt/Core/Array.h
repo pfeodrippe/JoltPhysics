@@ -45,7 +45,7 @@ public:
 	using const_iterator = const T *;
 	using iterator = T *;
 
-private:
+// private:
 	/// Move elements from one location to another
 	inline void				move(pointer inDestination, pointer inSource, size_type inCount)
 	{
@@ -146,7 +146,7 @@ public:
 		mSize = 0;
 	}
 
-private:
+// private:
 	/// Grow the array by at least inAmount elements
 	inline void				grow(size_type inAmount = 1)
 	{
@@ -560,7 +560,7 @@ public:
 		return false;
 	}
 
-private:
+// private:
 	size_type				mSize = 0;
 	size_type				mCapacity = 0;
 	T *						mElements = nullptr;

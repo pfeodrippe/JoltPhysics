@@ -16,7 +16,7 @@ public:
 	virtual void			Initialize() override;
 	virtual void			PrePhysicsUpdate(const PreUpdateParams &inParams) override;
 
-private:
+// private:
 	// Size and spacing of the cloth
 	static constexpr int	cNumVerticesX = 10;
 	static constexpr int	cNumVerticesZ = 50;

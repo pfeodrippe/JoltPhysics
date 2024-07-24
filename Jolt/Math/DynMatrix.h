@@ -22,7 +22,7 @@ public:
 	uint			GetCols() const								{ return mCols; }
 	uint			GetRows() const								{ return mRows; }
 
-private:
+// private:
 	uint			mRows;
 	uint			mCols;
 	Array<float>	mElements;

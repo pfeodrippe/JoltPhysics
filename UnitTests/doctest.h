@@ -589,7 +589,7 @@ class DOCTEST_INTERFACE String
 public:
     using size_type = DOCTEST_CONFIG_STRING_SIZE_TYPE;
 
-private:
+// private:
     static DOCTEST_CONSTEXPR size_type len  = 24;      //!OCLINT avoid private static members
     static DOCTEST_CONSTEXPR size_type last = len - 1; //!OCLINT avoid private static members
 
@@ -843,7 +843,7 @@ struct DOCTEST_INTERFACE AssertData
     const char*    m_exception_type;
 
     class DOCTEST_INTERFACE StringContains {
-        private:
+        // private:
             Contains content;
             bool isContains;
 
@@ -1346,7 +1346,7 @@ namespace detail {
 
         operator bool() const;
 
-        private:
+        // private:
             bool checkFilters();
     };
 
@@ -1819,7 +1819,7 @@ DOCTEST_CLANG_SUPPRESS_WARNING_POP
             return false;
         }
 
-    private:
+    // private:
         String (*m_translateFunction)(T);
     };
 
@@ -3409,7 +3409,7 @@ using ticks_t = timer_large_integer::type;
         //}
         double getElapsedSeconds() const { return static_cast<double>(getCurrentTicks() - m_ticks) / 1000000.0; }
 
-    private:
+    // private:
         ticks_t m_ticks = 0;
     };
 
@@ -3484,7 +3484,7 @@ using ticks_t = timer_large_integer::type;
             }
         }
 
-    private:
+    // private:
         // Each thread has a different atomic that it operates on. If more than NumLanes threads
         // use this, some will use the same atomic. So performance will degrade a bit, but still
         // everything will work.
@@ -4519,7 +4519,7 @@ namespace detail {
     public:
         ErrnoGuard() : m_oldErrno(errno) {}
         ~ErrnoGuard() { errno = m_oldErrno; }
-    private:
+    // private:
         int m_oldErrno;
     };
     // See the comments in Catch2 for the reasoning behind this implementation:
@@ -4751,7 +4751,7 @@ namespace {
 
         ~FatalConditionHandler() { reset(); }
 
-    private:
+    // private:
         static UINT         prev_error_mode_1;
         static int          prev_error_mode_2;
         static unsigned int prev_abort_behavior;
@@ -5043,7 +5043,7 @@ namespace {
 
         friend std::ostream& operator << ( std::ostream& os, XmlEncode const& xmlEncode );
 
-    private:
+    // private:
         std::string m_str;
         ForWhat m_forWhat;
     };
@@ -5068,7 +5068,7 @@ namespace {
                 return *this;
             }
 
-        private:
+        // private:
             mutable XmlWriter* m_writer = nullptr;
         };
 
@@ -5113,7 +5113,7 @@ namespace {
 
         void writeDeclaration();
 
-    private:
+    // private:
 
         void newlineIfNecessary();
 
@@ -6769,10 +6769,10 @@ void Context::setCout(std::ostream* out) { p->cout = out; }
 
 static class DiscardOStream : public std::ostream
 {
-private:
+// private:
     class : public std::streambuf
     {
-    private:
+    // private:
         // allowing some buffering decreases the amount of calls to overflow
         char buf[1024];
 

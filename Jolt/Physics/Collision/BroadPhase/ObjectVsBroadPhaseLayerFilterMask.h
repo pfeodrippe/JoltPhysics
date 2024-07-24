@@ -28,7 +28,7 @@ public:
 		return mBroadPhaseLayerInterface.ShouldCollide(inLayer1, inLayer2);
 	}
 
-private:
+// private:
 	const BroadPhaseLayerInterfaceMask &mBroadPhaseLayerInterface;
 };
 

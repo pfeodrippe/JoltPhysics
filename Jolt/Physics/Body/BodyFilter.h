@@ -47,7 +47,7 @@ public:
 		return mBodyID != inBodyID;
 	}
 
-private:
+// private:
 	BodyID					mBodyID;
 };
 
@@ -79,7 +79,7 @@ public:
 		return std::find(mBodyIDs.begin(), mBodyIDs.end(), inBodyID) == mBodyIDs.end();
 	}
 
-private:
+// private:
 	Array<BodyID>			mBodyIDs;
 };
 

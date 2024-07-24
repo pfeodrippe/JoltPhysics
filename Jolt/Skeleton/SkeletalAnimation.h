@@ -69,7 +69,7 @@ public:
 	const AnimatedJointVector &			GetAnimatedJoints() const							{ return mAnimatedJoints; }
 	AnimatedJointVector &				GetAnimatedJoints()									{ return mAnimatedJoints; }
 
-private:
+// private:
 	AnimatedJointVector					mAnimatedJoints;									///< List of joints and keyframes
 	bool								mIsLooping = true;									///< If this animation loops back to start
 };

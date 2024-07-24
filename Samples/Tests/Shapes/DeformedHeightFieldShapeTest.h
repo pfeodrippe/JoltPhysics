@@ -22,7 +22,7 @@ public:
 	// Test will never be deterministic since we're modifying the height field shape and not saving it
 	virtual bool			IsDeterministic() const override							{ return false; }
 
-private:
+// private:
 	// Get the center of the path at time inTime, this follows a path that resembles the Jolt logo
 	Vec3					GetPathCenter(float inTime) const;
 
